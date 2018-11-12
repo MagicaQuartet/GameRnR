@@ -1,0 +1,28 @@
+{
+  "name": "gamernr",
+  "version": "1.0.0",
+  "description": "Toy website for game review &amp; recommendation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagicaQuartet/GameRnR.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "npm"
+  ],
+  "author": "MagicaQuartet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagicaQuartet/GameRnR/issues"
+  },
+  "homepage": "https://github.com/MagicaQuartet/GameRnR#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
