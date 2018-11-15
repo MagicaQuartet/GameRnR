@@ -29,6 +29,12 @@
 
 				$('body').append($table);
 			}
+			else {
+				var rows = $('#search-result > tr').nextAll();
+				for (var row in rows) {
+					row.remove();
+				}
+			}
 
 			$.ajax({
 				url: "/listAPI",
