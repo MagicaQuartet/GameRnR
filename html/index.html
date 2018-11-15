@@ -16,5 +16,34 @@
 		<button type="submit">Submit</button>
 	</form>
 	<button type="button" onclick="location.href='/listAPI' ">My reviews</button>
+	<button type="button" id="search">Search</button>
+
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script>
+		$('#search').on('click', function(event) {
+			if (!$('#search-result').length) {
+				var $table = $('<table id="search-result" border="1"><tr><th>Review ID</th><th>Game ID</th><th>Name</th><th>Rating</th></tr><tbody></tbody></table>');
+
+				$('body').append($table);
+			}
+
+			$.ajax({
+				url: "/listAPI",
+				success: function(result) {
+					for (var i in result) {
+						var item = result[i];
+						$('#search-result > tbody:last').append('<tr>' + 
+							'<td>' + item.rid + '</td>' + 
+							'<td>' + item.gid + '</td>' + 
+							'<td>' + item.name + '</td>' + 
+							'<td>' + item.rating + '</td></tr>');
+					}
+				}
+			})
+		});
+	</script>
 </body>
 </html>
