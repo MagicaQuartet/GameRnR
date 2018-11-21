@@ -14,6 +14,28 @@ router.get('/', function(req, res) {
 	res.sendFile(path.join(__dirname, 'html', 'index.html'));
 });
 
+router.get('/review', function (req, res) {
+	res.sendFile(path.join(__dirname, 'html', 'review.html'));
+});
+
+router.get('/recommendation', function (req, res) {
+	res.sendFile(path.join(__dirname, 'html', 'recommendation.html'));
+});
+
+router.get('/listReview', function (req, res) {
+	connection.query('SELECT * FROM user_review ORDER BY rating DESC', function (err, rows) {
+		if (err) throw err;
+		res.send(rows);
+	})
+});
+
+router.get('/listGame', function (req, res) {
+	connection.query('SELECT * FROM all_games', function (err, rows) {
+		if (err) throw err;
+		res.send(rows);
+	})
+});
+
 router.post('/insertAPI', function (req, res) {
 	selectQuery = 'SELECT id FROM all_games WHERE all_games.name="'+req.body.name+'";';
 
@@ -32,17 +54,6 @@ router.post('/insertAPI', function (req, res) {
 			res.redirect('/');
 		});
 	});
-});
-
-router.get('/reviews', function (req, res) {
-	res.sendFile(__dirname + "/result.html");
-});
-
-router.get('/listAPI', function (req, res) {
-	connection.query('SELECT * FROM user_review ORDER BY rating DESC', function (err, rows) {
-		if (err) throw err;
-		res.send(rows);
-	})
 });
 
 module.exports = router;

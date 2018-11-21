@@ -3,54 +3,122 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Game RnR</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 </head>
 <body>
-	<h1>Game RnR</h1>
-	<form action="/insertAPI" method="POST">
-		Game:<br>
-		<input type="text" name="name"><br>
-		Rating:<br>
-		<input type="text" name="rating">
-		<br>
-		<br>
-		<button type="submit">Submit</button>
-	</form>
-	<button type="button" onclick="location.href='/listAPI' ">My reviews</button>
-	<button type="button" id="search">Search</button>
+	<!-- navigation bar -->
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	      </button>
+	      <a class="navbar-brand" href="/">GameRnR</a>
+	    </div>
+
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="/review">Review</a></li>
+	        <li><a href="/recommendation">Recommendation</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+
+	<div>
+		<ul class="nav nav-tabs">
+			<li role="presentation" class="active"><a href="#first">My review</a></li>
+			<li role="presentation"><a href="#second">Write</a></li>
+		</ul>
+	</div>
+	<div class="tab-content" style="margin-top: 80px;">
+		<div class="tab-pane fade active in" id="first">
+			<div class="col-lg-6" id="review-group">
+				<h1>My review</h1>
+		    <div class="input-group">
+		      <input type="text" class="form-control" placeholder="Search reviews (you can leave here empty)">
+		      <span class="input-group-btn">
+		        <button class="btn btn-default" id="search-review" type="button" onclick="click">Search</button>
+		      </span>
+		    </div>
+		    <br>
+		  </div>
+		</div>
+		<div class="tab-pane fade" id="second">
+			<div class="col-lg-6" id="game-group">
+				<h1>Write new review</h1>
+		    <div class="input-group">
+		      <input type="text" class="form-control" placeholder="Search games (you can leave here empty)">
+		      <span class="input-group-btn">
+		        <button class="btn btn-default" id="search-game" type="button" onclick="click">Search</button>
+		      </span>
+		    </div>
+		    <br>
+		  </div>
+		</div>
+	</div>
 
 	<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+  	src="https://code.jquery.com/jquery-3.3.1.min.js"
+  	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  	crossorigin="anonymous">	
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
 	<script>
-		$('#search').on('click', function(event) {
-			if (!$('#search-result').length) {
-				var $table = $('<table id="search-result" border="1"><tr><th>Review ID</th><th>Game ID</th><th>Name</th><th>Rating</th></tr><tbody></tbody></table>');
-
-				$('body').append($table);
+		$('#search-review').on('click', function(event) {
+			if (!$('#review-list').length) {
+				var $list = $('<ul class="list-group" id="review-list"></ul>');
+				$('#review-group').append($list);
 			}
 			else {
-				var rows = $('#search-result > tr').nextAll();
+				var rows = $('#review-list').children();
 				for (var row in rows) {
 					row.remove();
 				}
 			}
 
 			$.ajax({
-				url: "/listAPI",
+				url: "/listReview",
 				success: function(result) {
 					for (var i in result) {
 						var item = result[i];
-						$('#search-result > tbody:last').append('<tr>' + 
-							'<td>' + item.rid + '</td>' + 
-							'<td>' + item.gid + '</td>' + 
-							'<td>' + item.name + '</td>' + 
-							'<td>' + item.rating + '</td></tr>');
+						$('#review-list').append('<li class="list-group-item">'+item.name+'\t\t/\t'+item.rating+'</li>');
 					}
 				}
 			})
 		});
+
+		$('#search-game').on('click', function(event) {
+			if (!$('#game-list').length) {
+				var $list = $('<ul class="list-group" id="game-list"></ul>');
+				$('#game-group').append($list);
+			}
+			else {
+				var rows = $('#game-list').children();
+				for (var row in rows) {
+					row.remove();
+				}
+			}
+
+			$.ajax({
+				url: "/listGame",
+				success: function(result) {
+					for (var i in result) {
+						var item = result[i];
+						$('#game-list').append('<li class="list-group-item">'+item.name+'</li>');
+					}
+				}
+			})
+		});
+
+		$(function(){
+    	$('ul.nav-tabs a').click(function (e) {
+      	e.preventDefault()
+      	$(this).tab('show')
+    	})
+		})
 	</script>
 </body>
 </html>
