@@ -1,89 +1,89 @@
-"Stardew Valley",Overwhelmingly Positive,96%,87687
-"Puyo Puyo¢âTetris¢ç",Mostly Positive,79%,1134
-"House Flipper",Mostly Positive,77%,5980
-"Wallpaper Engine",Overwhelmingly Positive,96%,51908
-"Tricky Towers",Very Positive,88%,1924
-"Princess Evangile Collection",Very Positive,92%,140
-"Overcooked! 2",Mostly Positive,72%,2050
-"Call of Duty¢ç: Modern Warfare¢ç Remastered",Mixed,48%,926
-"Cities: Skylines",Very Positive,91%,48316
-"Overcooked",Very Positive,91%,4953
-"The Witch's House MV",Very Positive,98%,212
-"Hidden Folks EVERYTHING",Overwhelmingly Positive,97%,3307
-"Good Pizza, Great Pizza",Positive,90%,42
-"BattleBlock Theater¢ç",Overwhelmingly Positive,97%,34330
-"Moss",Very Positive,90%,299
-"Gang Beasts",Mixed,69%,15381
-"Slime Rancher",Overwhelmingly Positive,95%,17811
-"Universe Sandbox ©÷",Very Positive,93%,4832
-"Poly Bridge",Very Positive,88%,3219
-"Passpartout: The Starving Artist",Mostly Positive,77%,1727
-"Farm Together",Very Positive,89%,2224
-"Goat Simulator",Very Positive,87%,37935
-"ibb &amp; obb",Very Positive,93%,1632
-"Goat Simulator: GOATY",Very Positive,87%,39134
-"Ultimate Chicken Horse",Very Positive,94%,5209
-"Richie's Plank Experience",Very Positive,84%,339
-"Fruit Ninja VR",Very Positive,86%,463
-"60 Seconds!",Mostly Positive,77%,5741
-"Hidden Folks",Overwhelmingly Positive,97%,3271
-"RollerCoaster Tycoon¢ç 2: Triple Thrill Pack",Very Positive,85%,1941
-"TAPSONIC BOLD",Mixed,46%,106
-"DISTRAINT 2",Very Positive,96%,52
-"The Room",Overwhelmingly Positive,97%,8891
-"Bloons TD 5",Very Positive,91%,3434
-"Surgeon Simulator",Very Positive,82%,10876
-"Warriors: Rise to Glory!",Very Positive,84%,271
-"Project Highrise",Very Positive,82%,1563
-"Plague Inc: Evolved",Very Positive,93%,17760
-"Superbrothers: Sword & Sworcery EP",Mostly Positive,79%,1129
-"Fugl",Very Positive,84%,150
-"Golfing Over It with Alva Majo",Mixed,67%,539
-"Please, Don't Touch Anything 3D",Very Positive,83%,166
-"Goat Simulator: Waste of Space",Very Positive,87%,272
-"Cities: Skylines Collection",Very Positive,90%,51529
-"Tabletop Simulator",Very Positive,93%,7402
-"Getting Over It with Bennett Foddy",Mostly Positive,79%,10479
-"Meadow",Very Positive,89%,3567
-"Please, Don¡¯t Touch Anything",Very Positive,86%,2361
-"Euro Truck Simulator 2 Essentials",Overwhelmingly Positive,96%,119636
-"American Truck Simulator Enchanted Bundle",Very Positive,91%,19253
-"Cities: Skylines",Very Positive,91%,48316
-"Goat Simulator: Original Soundtrack",Very Positive,89%,65
-"Everything",Very Positive,84%,1471
-"Pixel Painter",Mostly Positive,76%,239
-"Goat Simulator: PAYDAY",Very Positive,85%,344
-"DISTRAINT: Deluxe Edition",Very Positive,94%,3263
-"Goat Simulator: GoatZ",Very Positive,84%,518
-"Reigns",Very Positive,89%,4967
-"Hidden Folks - Beach Pack",Positive,94%,34
-"9 Clues 2: The Ward",Very Positive,92%,251
-"PaPaPub",Mostly Positive,72%,62
-"Witch It",Very Positive,89%,1851
-"Sexy Jigsaw / Sexy Puzzle / àõÊï??",Positive,81%,33
-"American Truck Simulator",Very Positive,91%,17796
-"Ultimate Booster Experience",Mostly Positive,79%,225
-"Zup! S",Positive,92%,27
-"Donut County",Very Positive,82%,859
-"Neptunia Showmaker",Overwhelmingly Positive,95%,7708
-"Limited Edition Deluxe Indie Bundle",Mixed,45%,348
-"Tower Unite",Very Positive,83%,4319
-"Scalak",Very Positive,98%,157
-"Euro Truck Simulator 2 Map Booster",Overwhelmingly Positive,95%,7154
-"BLADENET",Mixed,68%,169
-"The Witness",Very Positive,84%,5610
-"WAGAMAMA HIGH SPEC",Very Positive,94%,67
-"PC Building Simulator",Very Positive,89%,4064
-"911 Operator - Collector's Edition",Very Positive,82%,3677
-"÷¼çî?Ïé The Scroll Of Taiwu",Very Positive,88%,11618
-"Hiveswap Friendsim - Volume Seven",Positive,100%,15
-"Hiveswap Friendsim - Volume Four",Positive,90%,21
-"Jelly Killer",Very Positive,80%,142
-"Hiveswap Friendsim - Volume Nine",Positive,100%,16
-"Hiveswap Friendsim - Volume Five",Positive,100%,20
-"Overcooked! 1 & 2 Bundle",Very Positive,85%,7003
-"Hiveswap Friendsim - Volume Eleven",Positive,100%,12
-"Princess Evangile W Happiness - Steam Edition",Positive,91%,24
-"Hiveswap Friendsim - Volume Three",Positive,96%,29
-"Hiveswap Friendsim - Volume Six",Positive,100%,18
-"Hiveswap Friendsim - Volume Eight",Positive,100%,16
+0,Overwhelmingly Positive,96%,87687
+2,Mostly Positive,79%,1134
+333,Mostly Positive,77%,5980
+334,Overwhelmingly Positive,96%,51908
+8,Very Positive,88%,1924
+182,Very Positive,92%,140
+134,Mostly Positive,72%,2050
+144,Mixed,48%,926
+335,Very Positive,91%,48316
+161,Very Positive,91%,4953
+17,Very Positive,98%,212
+18,Overwhelmingly Positive,97%,3307
+336,Positive,90%,42
+21,Overwhelmingly Positive,97%,34330
+173,Very Positive,90%,299
+174,Mixed,69%,15381
+197,Overwhelmingly Positive,95%,17811
+295,Very Positive,93%,4832
+337,Very Positive,88%,3219
+338,Mostly Positive,77%,1727
+339,Very Positive,89%,2224
+340,Very Positive,87%,37935
+14,Very Positive,93%,1632
+215,Very Positive,87%,39134
+35,Very Positive,94%,5209
+341,Very Positive,84%,339
+342,Very Positive,86%,463
+343,Mostly Positive,77%,5741
+26,Overwhelmingly Positive,97%,3271
+344,Very Positive,85%,1941
+345,Mixed,46%,106
+30,Very Positive,96%,52
+304,Overwhelmingly Positive,97%,8891
+42,Very Positive,91%,3434
+346,Very Positive,82%,10876
+347,Very Positive,84%,271
+47,Very Positive,82%,1563
+55,Very Positive,93%,17760
+348,Mostly Positive,79%,1129
+317,Very Positive,84%,150
+349,Mixed,67%,539
+350,Very Positive,83%,166
+351,Very Positive,87%,272
+352,Very Positive,90%,51529
+353,Very Positive,93%,7402
+354,Mostly Positive,79%,10479
+322,Very Positive,89%,3567
+66,Very Positive,86%,2361
+329,Overwhelmingly Positive,96%,119636
+331,Very Positive,91%,19253
+335,Very Positive,91%,48316
+355,Very Positive,89%,65
+356,Very Positive,84%,1471
+357,Mostly Positive,76%,239
+358,Very Positive,85%,344
+54,Very Positive,94%,3263
+359,Very Positive,84%,518
+360,Very Positive,89%,4967
+361,Positive,94%,34
+64,Very Positive,92%,251
+362,Mostly Positive,72%,62
+363,Very Positive,89%,1851
+364,Positive,81%,33
+365,Very Positive,91%,17796
+366,Mostly Positive,79%,225
+70,Positive,92%,27
+367,Very Positive,82%,859
+368,Overwhelmingly Positive,95%,7708
+74,Mixed,45%,348
+369,Very Positive,83%,4319
+370,Very Positive,98%,157
+371,Overwhelmingly Positive,95%,7154
+372,Mixed,68%,169
+373,Very Positive,84%,5610
+374,Very Positive,94%,67
+375,Very Positive,89%,4064
+78,Very Positive,82%,3677
+376,Very Positive,88%,11618
+377,Positive,100%,15
+378,Positive,90%,21
+379,Very Positive,80%,142
+380,Positive,100%,16
+381,Positive,100%,20
+382,Very Positive,85%,7003
+383,Positive,100%,12
+384,Positive,91%,24
+385,Positive,96%,29
+386,Positive,100%,18
+387,Positive,100%,16

@@ -1,100 +1,100 @@
-"Stardew Valley",Overwhelmingly Positive,96%,87688
-"RimWorld",Overwhelmingly Positive,97%,23711
-"Puyo Puyo¢âTetris¢ç",Mostly Positive,79%,1135
-"The Binding of Isaac: Rebirth Complete Bundle",Very Positive,94%,68058
-"Don't Starve Together",Overwhelmingly Positive,96%,58010
-"Don't Starve MEGA PACK PLUS",Overwhelmingly Positive,96%,108497
-"The Binding of Isaac: Rebirth",Overwhelmingly Positive,97%,58365
-"Terraria",Overwhelmingly Positive,96%,179321
-"Tricky Towers",Very Positive,88%,1924
-"Cuphead",Overwhelmingly Positive,95%,31782
-"Oxygen Not Included",Very Positive,91%,12442
-"CrossCode",Very Positive,94%,3827
-"Graveyard Keeper",Mixed,68%,3544
-"Ori and the Blind Forest: Definitive Edition",Overwhelmingly Positive,95%,12393
-"ibb &amp; obb",Very Positive,93%,1632
-"Disgaea 2 PC / ØªÍ£?ÑÀ«Ç«£«¹«¬«¤«¢2 PC",Very Positive,89%,563
-"Mega Man 11 / «í«Ã«¯«Þ«ó11 ê¡Ù¤ªÎ?ó³!!",Very Positive,90%,862
-"The Witch's House MV",Very Positive,98%,212
-"Hidden Folks EVERYTHING",Overwhelmingly Positive,97%,3307
-"This War of Mine",Very Positive,94%,38966
-"NecroDancer AMPLIFIED PACK",Overwhelmingly Positive,96%,12534
-"BattleBlock Theater¢ç",Overwhelmingly Positive,97%,34330
-"Just Shapes &amp; Beats",Overwhelmingly Positive,96%,946
-"Hero Siege Complete",Mostly Positive,79%,13659
-"Undertale",Overwhelmingly Positive,95%,82270
-"Undertale",Overwhelmingly Positive,95%,82270
-"Dungreed",Very Positive,87%,1757
-"Hidden Folks",Overwhelmingly Positive,97%,3271
-"Owlboy",Very Positive,90%,2241
-"Hollow Knight",Very Positive,94%,26501
-"Iconoclasts",Very Positive,88%,802
-"DISTRAINT 2",Very Positive,96%,52
-"Craft The World",Very Positive,87%,6629
-"Criminal Girls: Invite Only / «¯«ê«ß«Ê«ë«¬?«ë«º INVITATION",Very Positive,80%,227
-"Wizard of Legend",Very Positive,87%,2871
-"Starbound",Very Positive,90%,54468
-"Ultimate Chicken Horse",Very Positive,94%,5209
-"Crypt of the NecroDancer",Overwhelmingly Positive,96%,12258
-"Serial Cleaner",Very Positive,85%,106
-"Angvik",Very Positive,89%,1177
-"Dig or Die",Very Positive,91%,2625
-"Papers, Please",Overwhelmingly Positive,95%,21756
-"OneShot",Overwhelmingly Positive,98%,8771
-"Bloons TD 5",Very Positive,91%,3434
-"Half Minute Hero: The Second Coming",Very Positive,92%,358
-"Monkey Island¢â 2 Special Edition: LeChuck¡¯s Revenge¢â",Overwhelmingly Positive,95%,1056
-"The Binding of Isaac Collection",Overwhelmingly Positive,95%,33404
-"Geometry Dash",Very Positive,94%,46857
-"Project Highrise",Very Positive,82%,1563
-"Trains of the Orient",Mostly Negative,23%,21
-"METAL SLUG X",Very Positive,91%,1246
-"Risk of Rain",Very Positive,93%,15975
-"Disgaea 2 PC Digital Dood Edition / ØªÍ£?ÑÀ«Ç«£«¹«¬«¤«¢2 PC «Ç«¸«¿«ëùÚïÒ÷ú (Game + Art Book)",Very Positive,89%,566
-"Old School Musical",Very Positive,97%,141
-"htoL#NiQ: The Firefly Diary / htoL#NiQ-«Û«¿«ë«Î«Ë«Ã«­-",Very Positive,81%,243
-"DISTRAINT: Deluxe Edition",Very Positive,94%,3263
-"Plague Inc: Evolved",Very Positive,93%,17760
-"Lobotomy Corporation | Monster Management Simulation",Very Positive,88%,2958
-"Klei Survival Bundle",Overwhelmingly Positive,96%,120939
-"River City Ransom: Underground",Mostly Positive,74%,1384
-"Street Fighter V",Mixed,52%,7412
-"Rusty Lake: Roots",Overwhelmingly Positive,95%,1564
-"Amphora",Mostly Positive,77%,104
-"Dead Cells",Very Positive,94%,18244
-"Darkest Dungeon¢ç: Ancestral Edition",Very Positive,83%,39273
-"9 Clues 2: The Ward",Very Positive,92%,251
-"Introversion Complete Bundle",Very Positive,92%,30636
-"Please, Don¡¯t Touch Anything",Very Positive,86%,2361
-"Dungetris",Mostly Positive,76%,183
-"Street Fighter V: Arcade Edition",Mixed,52%,7636
-"THE KING OF FIGHTERS '98 ULTIMATE MATCH FINAL EDITION",Very Positive,82%,801
-"Zup! S",Positive,92%,27
-"This War of Mine and Frostpunk",Very Positive,92%,53164
-"Celeste",Overwhelmingly Positive,97%,3250
-"Dragonia",Very Positive,87%,4553
-"Limited Edition Deluxe Indie Bundle",Mixed,45%,348
-"Rain Games 2017 Collection",Very Positive,85%,1152
-"Wuppo",Overwhelmingly Positive,96%,1070
-"Door Kickers: Action Squad",Very Positive,92%,450
-"911 Operator - Collector's Edition",Very Positive,82%,3677
-"THE KING OF FIGHTERS Triple Pack",Very Positive,87%,4893
-"Teslagrad",Very Positive,85%,1058
-"SEGA Mega Drive and Genesis Classics",Very Positive,91%,1987
-"NIS Spooky Bundle / ìíÜâìé«½«Õ«È«¦«§«¢ «Û«é?«Ð«ó«É«ë",Very Positive,84%,1197
-"Lost Castle",Very Positive,90%,9539
-"Finding Paradise",Overwhelmingly Positive,98%,5213
-"911 Operator",Very Positive,82%,3541
-"Daedalic - Gigantic Bundle",Mostly Positive,74%,8749
-"The Daedalic Armageddon Bundle",Very Positive,87%,15918
-"SKYHILL",Mostly Positive,70%,869
-"Owlboy Collector's Edition",Very Positive,90%,2249
-"Touhou Luna Nights",Overwhelmingly Positive,97%,1165
-"PEG",Very Positive,97%,67
-"Oppai Puzzle",Positive,93%,30
-"Hero Siege",Mostly Positive,79%,13359
-"Hollow Knight & Soundtracks",Very Positive,94%,26673
-"Cat Goes Fishing",Very Positive,90%,1610
-"Prison Architect",Very Positive,93%,26335
-"Criminal Girls: Invite Only Digital VIP Edition / «¯«ê«ß«Ê«ë«¬?«ë«º INVITATION «Ç«¸«¿«ëùÚïÒ÷ú (Game + Art Book + Soundtrack)",Mostly Positive,79%,233
-"Rusty Lake Paradise",Very Positive,94%,864
+0,Overwhelmingly Positive,96%,87688
+1,Overwhelmingly Positive,97%,23711
+2,Mostly Positive,79%,1135
+3,Very Positive,94%,68058
+4,Overwhelmingly Positive,96%,58010
+5,Overwhelmingly Positive,96%,108497
+6,Overwhelmingly Positive,97%,58365
+7,Overwhelmingly Positive,96%,179321
+8,Very Positive,88%,1924
+9,Overwhelmingly Positive,95%,31782
+10,Very Positive,91%,12442
+11,Very Positive,94%,3827
+12,Mixed,68%,3544
+13,Overwhelmingly Positive,95%,12393
+14,Very Positive,93%,1632
+15,Very Positive,89%,563
+16,Very Positive,90%,862
+17,Very Positive,98%,212
+18,Overwhelmingly Positive,97%,3307
+19,Very Positive,94%,38966
+20,Overwhelmingly Positive,96%,12534
+21,Overwhelmingly Positive,97%,34330
+22,Overwhelmingly Positive,96%,946
+23,Mostly Positive,79%,13659
+24,Overwhelmingly Positive,95%,82270
+24,Overwhelmingly Positive,95%,82270
+25,Very Positive,87%,1757
+26,Overwhelmingly Positive,97%,3271
+27,Very Positive,90%,2241
+28,Very Positive,94%,26501
+29,Very Positive,88%,802
+30,Very Positive,96%,52
+31,Very Positive,87%,6629
+32,Very Positive,80%,227
+33,Very Positive,87%,2871
+34,Very Positive,90%,54468
+35,Very Positive,94%,5209
+36,Overwhelmingly Positive,96%,12258
+37,Very Positive,85%,106
+38,Very Positive,89%,1177
+39,Very Positive,91%,2625
+40,Overwhelmingly Positive,95%,21756
+41,Overwhelmingly Positive,98%,8771
+42,Very Positive,91%,3434
+43,Very Positive,92%,358
+44,Overwhelmingly Positive,95%,1056
+45,Overwhelmingly Positive,95%,33404
+46,Very Positive,94%,46857
+47,Very Positive,82%,1563
+48,Mostly Negative,23%,21
+49,Very Positive,91%,1246
+50,Very Positive,93%,15975
+51,Very Positive,89%,566
+52,Very Positive,97%,141
+53,Very Positive,81%,243
+54,Very Positive,94%,3263
+55,Very Positive,93%,17760
+56,Very Positive,88%,2958
+57,Overwhelmingly Positive,96%,120939
+58,Mostly Positive,74%,1384
+59,Mixed,52%,7412
+60,Overwhelmingly Positive,95%,1564
+61,Mostly Positive,77%,104
+62,Very Positive,94%,18244
+63,Very Positive,83%,39273
+64,Very Positive,92%,251
+65,Very Positive,92%,30636
+66,Very Positive,86%,2361
+67,Mostly Positive,76%,183
+68,Mixed,52%,7636
+69,Very Positive,82%,801
+70,Positive,92%,27
+71,Very Positive,92%,53164
+72,Overwhelmingly Positive,97%,3250
+73,Very Positive,87%,4553
+74,Mixed,45%,348
+75,Very Positive,85%,1152
+76,Overwhelmingly Positive,96%,1070
+77,Very Positive,92%,450
+78,Very Positive,82%,3677
+79,Very Positive,87%,4893
+80,Very Positive,85%,1058
+81,Very Positive,91%,1987
+82,Very Positive,84%,1197
+83,Very Positive,90%,9539
+84,Overwhelmingly Positive,98%,5213
+85,Very Positive,82%,3541
+86,Mostly Positive,74%,8749
+87,Very Positive,87%,15918
+88,Mostly Positive,70%,869
+89,Very Positive,90%,2249
+90,Overwhelmingly Positive,97%,1165
+91,Very Positive,97%,67
+92,Positive,93%,30
+93,Mostly Positive,79%,13359
+94,Very Positive,94%,26673
+95,Very Positive,90%,1610
+96,Very Positive,93%,26335
+97,Mostly Positive,79%,233
+98,Very Positive,94%,864

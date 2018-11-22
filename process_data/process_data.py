@@ -6,7 +6,7 @@ data_path = "./raw_data/"
 for directory in os.listdir(data_path):
     print(directory)
     num = 0
-    with open("./data/" + directory + ".txt", "w") as output_file:
+    with open("./tmp_data/" + directory + ".txt", "w") as output_file:
         for file in os.listdir(data_path+directory):
             path = data_path + directory + "/" + file
             print("open:", path)

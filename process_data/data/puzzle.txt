@@ -1,95 +1,95 @@
-"Puyo Puyo¢âTetris¢ç",Mostly Positive,79%,1135
-"HITMAN 2  - Standard Edition",Mostly Positive,78%,1762
-"Darksiders Franchise Pack",Mostly Positive,77%,9010
-"Tricky Towers",Very Positive,88%,1924
-"CrossCode",Very Positive,94%,3827
-"Ori and the Blind Forest: Definitive Edition",Overwhelmingly Positive,95%,12393
-"Human: Fall Flat",Very Positive,90%,16630
-"Portal 2",Overwhelmingly Positive,98%,93582
-"Hidden Folks EVERYTHING",Overwhelmingly Positive,97%,3307
-"Good Pizza, Great Pizza",Positive,90%,42
-"BattleBlock Theater¢ç",Overwhelmingly Positive,97%,34330
-"RESIDENT EVIL 7 biohazard / BIOHAZARD 7 resident evil",Very Positive,90%,10858
-"ibb &amp; obb",Very Positive,93%,1632
-"The Room Three",Very Positive,98%,139
-"Hidden Folks",Overwhelmingly Positive,97%,3271
-"Poly Bridge",Very Positive,88%,3219
-"Full Metal Furies",Very Positive,90%,590
-"Darksiders II Deathinitive Edition",Mostly Positive,73%,5218
-"Portal Bundle",Overwhelmingly Positive,98%,130584
-"Papers, Please",Overwhelmingly Positive,95%,21756
-"Darksiders Warmastered Edition",Very Positive,84%,3720
-"Cube Escape: Paradox - Chapter 2",Very Positive,90%,84
-"OneShot",Overwhelmingly Positive,98%,8771
-"Besiege",Very Positive,94%,22855
-"The Room",Overwhelmingly Positive,97%,8891
-"Monkey Island¢â 2 Special Edition: LeChuck¡¯s Revenge¢â",Overwhelmingly Positive,95%,1056
-"A Rose in the Twilight / «í«¼ªÈ?ûçªÎÍ¯àò",Very Positive,91%,116
-"htoL#NiQ: The Firefly Diary / htoL#NiQ-«Û«¿«ë«Î«Ë«Ã«­-",Very Positive,81%,243
-"Portal",Overwhelmingly Positive,97%,37002
-"Danganronpa 1 + 2",Overwhelmingly Positive,97%,8675
-"DISTRAINT: Deluxe Edition",Very Positive,94%,3263
-"The Room Two",Overwhelmingly Positive,97%,6355
-"Please, Don't Touch Anything 3D",Very Positive,83%,166
-"Mirror",Overwhelmingly Positive,96%,15504
-"Shadow of the Tomb Raider",Mixed,65%,5684
-"Rusty Lake Hotel",Very Positive,93%,1202
-"Rise of the Tomb Raider¢â",Very Positive,92%,32006
-"Trineverse",Very Positive,90%,22822
-"Rusty Lake: Roots",Overwhelmingly Positive,95%,1564
-"Amphora",Mostly Positive,77%,104
-"9 Clues 2: The Ward",Very Positive,92%,251
-"Trine 2: Complete Story",Overwhelmingly Positive,95%,10970
-"Danganronpa 2: Goodbye Despair",Overwhelmingly Positive,97%,3921
-"Danganronpa: Trigger Happy Havoc",Overwhelmingly Positive,97%,4754
-"Please, Don¡¯t Touch Anything",Very Positive,86%,2361
-"Zup! S",Positive,92%,27
-"Trinelogy",Very Positive,90%,22185
-"The Orange Box",Overwhelmingly Positive,96%,108899
-"Donut County",Very Positive,82%,859
-"Trine 3: The Artifacts of Power",Mixed,67%,3924
-"Limited Edition Deluxe Indie Bundle",Mixed,45%,348
-"Among the Sleep - Enhanced Edition",Very Positive,86%,3301
-"Wuppo",Overwhelmingly Positive,96%,1070
-"Rain Games 2017 Collection",Very Positive,85%,1152
-"The Witness",Very Positive,84%,5610
-"PC Building Simulator",Very Positive,89%,4064
-"Absolute Despair Collection",Overwhelmingly Positive,96%,9472
-"Trine Enchanted Edition",Overwhelmingly Positive,96%,7291
-"Danganronpa 1/2/V3",Very Positive,94%,11536
-"Teslagrad",Very Positive,85%,1058
-"SEGA Mega Drive and Genesis Classics",Very Positive,91%,1987
-"NIS Spooky Bundle / ìíÜâìé«½«Õ«È«¦«§«¢ «Û«é?«Ð«ó«É«ë",Very Positive,84%,1196
-"Moss",Very Positive,90%,299
-"KNIGHTS",Very Positive,94%,432
-"Daedalic - Gigantic Bundle",Mostly Positive,74%,8749
-"The Daedalic Armageddon Bundle",Very Positive,87%,15918
-"Mirror Bundle",Overwhelmingly Positive,96%,17232
-"1954 Alcatraz",Mostly Positive,70%,721
-"Little Nightmares",Very Positive,87%,5227
-"Sudoku Jigsaw / ????",Mostly Positive,78%,14
-"PEG",Very Positive,97%,67
-"INSIDE",Overwhelmingly Positive,95%,15995
-"Rusty Lake Paradise",Very Positive,94%,864
-"Cat Goes Fishing",Very Positive,90%,1610
-"Hacknet - Complete Edition",Very Positive,93%,8380
-"Hentai Girl Games",Very Positive,91%,3518
-"Bendy and the Ink Machine¢â",Very Positive,83%,974
-"Prime Mover",Very Positive,92%,52
-"Secrets of Grindea",Very Positive,93%,2895
-"Hentai Temple",Mostly Positive,72%,320
-"Never Alone (Kisima Ingitchuna)",Very Positive,82%,3933
-"Oceanhorn: Monster of Uncharted Seas",Very Positive,83%,788
-"Homesick",Mostly Positive,77%,812
-"VOI",Very Positive,93%,420
-"Best of Konstructors",Very Positive,85%,1660
-"Haydee",Very Positive,84%,2762
-"God's Basement",Very Positive,84%,102
-"Dude, Stop",Mostly Positive,72%,206
-"Gorogoa",Overwhelmingly Positive,97%,3595
-"Frozenbyte Collection 2018",Very Positive,89%,24709
-"Death Coming",Very Positive,91%,1854
-"The Curse of Monkey Island",Very Positive,96%,289
-"Life Goes On: Done to Death",Overwhelmingly Positive,96%,1162
-"STAY",Mixed,69%,273
-"Detention",Overwhelmingly Positive,96%,6515
+2,Mostly Positive,79%,1135
+111,Mostly Positive,78%,1762
+113,Mostly Positive,77%,9010
+8,Very Positive,88%,1924
+11,Very Positive,94%,3827
+13,Overwhelmingly Positive,95%,12393
+201,Very Positive,90%,16630
+198,Overwhelmingly Positive,98%,93582
+18,Overwhelmingly Positive,97%,3307
+336,Positive,90%,42
+21,Overwhelmingly Positive,97%,34330
+177,Very Positive,90%,10858
+14,Very Positive,93%,1632
+194,Very Positive,98%,139
+26,Overwhelmingly Positive,97%,3271
+337,Very Positive,88%,3219
+207,Very Positive,90%,590
+211,Mostly Positive,73%,5218
+162,Overwhelmingly Positive,98%,130584
+40,Overwhelmingly Positive,95%,21756
+631,Very Positive,84%,3720
+751,Very Positive,90%,84
+41,Overwhelmingly Positive,98%,8771
+432,Very Positive,94%,22855
+304,Overwhelmingly Positive,97%,8891
+44,Overwhelmingly Positive,95%,1056
+309,Very Positive,91%,116
+53,Very Positive,81%,243
+514,Overwhelmingly Positive,97%,37002
+315,Overwhelmingly Positive,97%,8675
+54,Very Positive,94%,3263
+320,Overwhelmingly Positive,97%,6355
+350,Very Positive,83%,166
+752,Overwhelmingly Positive,96%,15504
+326,Mixed,65%,5684
+753,Very Positive,93%,1202
+328,Very Positive,92%,32006
+330,Very Positive,90%,22822
+60,Overwhelmingly Positive,95%,1564
+61,Mostly Positive,77%,104
+64,Very Positive,92%,251
+754,Overwhelmingly Positive,95%,10970
+755,Overwhelmingly Positive,97%,3921
+756,Overwhelmingly Positive,97%,4754
+66,Very Positive,86%,2361
+70,Positive,92%,27
+757,Very Positive,90%,22185
+511,Overwhelmingly Positive,96%,108899
+367,Very Positive,82%,859
+758,Mixed,67%,3924
+74,Mixed,45%,348
+759,Very Positive,86%,3301
+76,Overwhelmingly Positive,96%,1070
+75,Very Positive,85%,1152
+373,Very Positive,84%,5610
+375,Very Positive,89%,4064
+760,Overwhelmingly Positive,96%,9472
+761,Overwhelmingly Positive,96%,7291
+762,Very Positive,94%,11536
+80,Very Positive,85%,1058
+81,Very Positive,91%,1987
+82,Very Positive,84%,1196
+173,Very Positive,90%,299
+763,Very Positive,94%,432
+86,Mostly Positive,74%,8749
+87,Very Positive,87%,15918
+522,Overwhelmingly Positive,96%,17232
+764,Mostly Positive,70%,721
+765,Very Positive,87%,5227
+413,Mostly Positive,78%,14
+91,Very Positive,97%,67
+766,Overwhelmingly Positive,95%,15995
+98,Very Positive,94%,864
+95,Very Positive,90%,1610
+767,Very Positive,93%,8380
+768,Very Positive,91%,3518
+769,Very Positive,83%,974
+421,Very Positive,92%,52
+213,Very Positive,93%,2895
+534,Mostly Positive,72%,320
+770,Very Positive,82%,3933
+771,Very Positive,83%,788
+772,Mostly Positive,77%,812
+773,Very Positive,93%,420
+774,Very Positive,85%,1660
+775,Very Positive,84%,2762
+655,Very Positive,84%,102
+776,Mostly Positive,72%,206
+777,Overwhelmingly Positive,97%,3595
+778,Very Positive,89%,24709
+657,Very Positive,91%,1854
+779,Very Positive,96%,289
+780,Overwhelmingly Positive,96%,1162
+781,Mixed,69%,273
+652,Overwhelmingly Positive,96%,6515
