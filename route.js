@@ -36,7 +36,7 @@ router.get('/listGame', function (req, res) {
 	})
 });
 
-router.post('/insertAPI', function (req, res) {
+router.post('/writeReview', function (req, res) {
 	selectQuery = 'SELECT id FROM all_games WHERE all_games.name="'+req.body.name+'";';
 
 	connection.query(selectQuery, function (err, row) {
@@ -46,12 +46,11 @@ router.post('/insertAPI', function (req, res) {
 		insertQuery = 'INSERT INTO user_review (gid, name, rating) VALUES ('
 						+ row[0].id + ', "'
 						+ req.body.name + '", '
-						+ parseFloat(req.body.rating) + ');';
+						+ req.body.rating + ');';
 
 		connection.query(insertQuery, function (err, rows) {
 			if (err) throw err;
 			console.log(rows);
-			res.redirect('/');
 		});
 	});
 });
