@@ -89,7 +89,7 @@
 				success: function(result) {
 					for (var i in result) {
 						var item = result[i];
-						$('#review-list').append('<li class="list-group-item">'+item.name+'\t\t/\t'+item.rating+'</li>');
+						$('#review-list').append('<li class="list-group-item">'+item.name+'\t('+item.rating+')</li>');
 					}
 				}
 			})
@@ -117,15 +117,17 @@
 				success: function(result) {
 					for (var i in result) {
 						var item = result[i];
-						$('#game-list').append('<li class="list-group-item">'+item.name+'</li>');
+						$('#game-list').append(
+							'<li class="list-group-item radio"><label><input type="radio" name="game-opt">'+item.name+'</label></li>'
+							);
 					}
 				}
 			})
 		});
 
 		$(function(){
-    	$('ul.nav-tabs a').click(function (e) {
-      	e.preventDefault()
+    	$('ul.nav-tabs a').click(function (event) {
+      	event.preventDefault()
       	$(this).tab('show')
     	})
 		})
