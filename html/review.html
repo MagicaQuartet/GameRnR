@@ -89,8 +89,11 @@
 				success: function(result) {
 					for (var i in result) {
 						var item = result[i];
-						$('#review-list').append('<li class="list-group-item">'+item.name+'\t('+item.rating+')</li>');
+						$('#review-list').append(
+							'<li class="list-group-item radio"><label><input type="radio" name="review-opt" value="'+item.name+'">'+item.name+'\t('+item.rating+')</label></li>');
 					}
+
+					$('#review-group').append('<button class="btn btn-default" id="delete-review-btn" type="button" onclick="click" style="display:none;">Delete</button>');
 				}
 			})
 		});
@@ -135,10 +138,18 @@
 		});
 
 		$('body').on('change', 'input[name=game-opt]', function(event){
+			event.preventDefault();
 			$('#write-review-btn').show();
 		});
 
+		$('body').on('change', 'input[name=review-opt]', function(event){
+			event.preventDefault();
+			$('#delete-review-btn').show();
+		});
+
 		$('body').on('click', '#write-review-btn', function(event){
+			event.preventDefault();
+
 			var game = $('input[name=game-opt]:checked').val();
 			var rating = parseFloat(prompt("["+game+"] Rating: ", "Please enter 0 ~ 10 real number"));
 
@@ -152,12 +163,28 @@
 					data: {
 						name: game,
 						rating: rating
-					},
-					success: function(result) {
-						alert("success!");
 					}
 				});
 			}
+		})
+
+		$('body').on('click', '#delete-review-btn', function(event) {
+			event.preventDefault();
+
+			var row = $('input[name=review-opt]:checked');
+			var game = row.val();
+
+			$.ajax({
+				url: "/deleteReview",
+				type: 'POST',
+				data: {
+					name: game
+				},
+				success: function(event) {
+					row.parent().parent().remove();
+					$('#delete-review-btn').hide();
+				}
+			});
 		})
 	</script>
 </body>

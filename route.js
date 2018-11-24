@@ -73,4 +73,13 @@ router.post('/writeReview', function (req, res) {
 	});
 });
 
+router.post('/deleteReview', function (req, res) {
+	deleteQuery = 'DELETE FROM user_review WHERE name=\''+req.body.name+'\';';
+
+	connection.query(deleteQuery, function (err, rows) {
+		if (err) throw err;
+		console.log(rows);
+	})
+});
+
 module.exports = router;
