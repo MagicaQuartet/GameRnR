@@ -36,9 +36,9 @@
 			<div class="col-lg-6" id="review-group">
 				<h1>My review</h1>
 		    <div class="input-group">
-		      <input type="text" class="form-control" placeholder="Search reviews (you can leave here empty)">
+		      <input type="text" class="form-control" id="search-review-text" placeholder="Search reviews (you can leave here empty)">
 		      <span class="input-group-btn">
-		        <button class="btn btn-default" id="search-review" type="button" onclick="click">Search</button>
+		        <button class="btn btn-default" id="search-review-btn" type="button" onclick="click">Search</button>
 		      </span>
 		    </div>
 		    <br>
@@ -48,9 +48,9 @@
 			<div class="col-lg-6" id="game-group">
 				<h1>Write new review</h1>
 		    <div class="input-group">
-		      <input type="text" class="form-control" placeholder="Search games (you can leave here empty)">
+		      <input type="text" class="form-control" id="search-game-text" placeholder="Search games (you can leave here empty)">
 		      <span class="input-group-btn">
-		        <button class="btn btn-default" id="search-game" type="button" onclick="click">Search</button>
+		        <button class="btn btn-default" id="search-game-btn" type="button" onclick="click">Search</button>
 		      </span>
 		    </div>
 		    <br>
@@ -67,20 +67,25 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
 	<script>
-		$('#search-review').on('click', function(event) {
+		$('#search-review-btn').on('click', function(event) {
+			event.preventDefault();
 			if (!$('#review-list').length) {
 				var $list = $('<ul class="list-group" id="review-list"></ul>');
 				$('#review-group').append($list);
 			}
 			else {
 				var rows = $('#review-list').children();
-				for (var row in rows) {
-					row.remove();
+				for (var i=0; i<rows.length; i++) {
+					rows[i].remove();
 				}
 			}
 
 			$.ajax({
 				url: "/listReview",
+				type: 'GET',
+				data: {
+					name: $('#search-review-text').val()
+				},
 				success: function(result) {
 					for (var i in result) {
 						var item = result[i];
@@ -90,20 +95,25 @@
 			})
 		});
 
-		$('#search-game').on('click', function(event) {
+		$('#search-game-btn').on('click', function(event) {
+			event.preventDefault();
 			if (!$('#game-list').length) {
 				var $list = $('<ul class="list-group" id="game-list"></ul>');
 				$('#game-group').append($list);
 			}
 			else {
 				var rows = $('#game-list').children();
-				for (var row in rows) {
-					row.remove();
+				for (var i=0; i<rows.length; i++) {
+					rows[i].remove();
 				}
 			}
 
 			$.ajax({
 				url: "/listGame",
+				type: 'GET',
+				data: {
+					name: $('#search-game-text').val()
+				},
 				success: function(result) {
 					for (var i in result) {
 						var item = result[i];

@@ -23,14 +23,14 @@ router.get('/recommendation', function (req, res) {
 });
 
 router.get('/listReview', function (req, res) {
-	connection.query('SELECT * FROM user_review ORDER BY rating DESC', function (err, rows) {
+	connection.query('SELECT * FROM user_review WHERE name LIKE \'%'+req.query.name+'%\'ORDER BY rating DESC', function (err, rows) {
 		if (err) throw err;
 		res.send(rows);
 	})
 });
 
 router.get('/listGame', function (req, res) {
-	connection.query('SELECT * FROM all_games', function (err, rows) {
+	connection.query('SELECT * FROM all_games WHERE name LIKE \'%'+req.query.name+'%\'', function (err, rows) {
 		if (err) throw err;
 		res.send(rows);
 	})
