@@ -1,0 +1,98 @@
+907,Mostly Positive,75%,922
+630,Mostly Negative,39%,1289
+908,Mostly Negative,21%,5427
+114,Very Positive,82%,10729
+685,Very Positive,83%,364
+137,Mixed,64%,2892
+932,Very Positive,80%,231
+427,Overwhelmingly Positive,97%,6187
+783,Very Positive,91%,164882
+294,Mixed,56%,1219
+550,Mixed,65%,2158
+933,Mostly Positive,79%,159
+342,Very Positive,86%,463
+299,Mostly Positive,78%,14572
+696,Mostly Positive,75%,285
+434,Very Positive,85%,1032
+934,Very Positive,94%,55
+909,Mixed,50%,53
+784,Very Positive,85%,13323
+935,Very Positive,83%,192
+936,Mixed,60%,4409
+786,Mostly Positive,77%,762
+937,Mixed,65%,26
+230,Overwhelmingly Positive,97%,810
+455,Very Positive,85%,132
+231,Mostly Positive,74%,8012
+787,Very Positive,87%,835
+232,Mixed,58%,74
+467,Very Positive,90%,362
+788,Positive,88%,42
+938,Very Positive,91%,641
+477,Very Positive,89%,11756
+939,Mixed,68%,465
+482,Very Positive,93%,738
+565,Mixed,58%,8351
+790,Overwhelmingly Positive,96%,4276
+664,Very Positive,94%,75
+940,Mostly Positive,70%,10
+483,Mostly Positive,77%,2374
+792,Very Positive,80%,122
+941,Mostly Positive,77%,22
+942,Mostly Positive,77%,149
+793,Mixed,41%,46
+943,Mixed,59%,22
+944,Overwhelmingly Positive,95%,1022
+266,Overwhelmingly Positive,95%,6134
+272,Overwhelmingly Positive,95%,2706
+945,Overwhelmingly Positive,95%,969
+946,Very Positive,90%,91
+947,Very Positive,87%,216
+948,Very Positive,89%,91
+949,Very Positive,86%,67
+950,Very Positive,83%,55
+288,Very Positive,88%,193
+951,Very Positive,83%,158
+614,Very Positive,82%,50
+952,Very Positive,95%,74
+796,Very Positive,92%,88
+953,Very Positive,94%,73
+797,Very Positive,89%,389
+954,Very Positive,86%,91
+955,Very Positive,80%,132
+956,Very Positive,84%,129
+957,Very Positive,87%,166
+958,Very Positive,91%,411
+959,Very Positive,92%,154
+960,Very Positive,83%,67
+961,Very Positive,88%,53
+962,Very Positive,90%,633
+831,Very Positive,93%,12920
+963,Very Positive,88%,314
+964,Very Positive,91%,401
+839,Very Positive,91%,272
+965,Very Positive,83%,655
+966,Very Positive,80%,5804
+967,Very Positive,80%,1278
+805,Very Positive,80%,319
+968,Very Positive,88%,143
+964,Very Positive,91%,401
+960,Very Positive,83%,67
+961,Very Positive,88%,53
+839,Very Positive,91%,272
+969,Very Positive,80%,272
+970,Very Positive,83%,111
+971,Very Positive,92%,101
+972,Very Positive,89%,55
+973,Very Positive,83%,179
+974,Very Positive,91%,125
+975,Very Positive,86%,97
+976,Very Positive,84%,2034
+977,Very Positive,86%,53
+978,Very Positive,91%,302
+979,Very Positive,94%,240
+980,Very Positive,85%,176
+981,Very Positive,90%,283
+982,Very Positive,88%,1110
+808,Very Positive,85%,990
+983,Very Positive,87%,817
