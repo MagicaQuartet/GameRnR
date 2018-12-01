@@ -90,7 +90,6 @@
 "Half-Life 2: Episode Two",Very Positive,94%,9924
 "HIVESWAP: Act 1",Overwhelmingly Positive,95%,2367
 "Tales from the Borderlands",Overwhelmingly Positive,95%,11409
-"Borderlands "Take Over Your Life Bundle"",Very Positive,94%,123834
 "Sanctum",Very Positive,90%,1633
 "Uplink",Very Positive,90%,1178
 "JYDGE",Very Positive,88%,218

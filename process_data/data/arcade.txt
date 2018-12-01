@@ -1,87 +1,87 @@
-2,Mostly Positive,79%,1135
-114,Very Positive,82%,10729
-218,Very Positive,81%,1458
-137,Mixed,64%,2892
-219,Mixed,69%,16249
-149,Very Positive,93%,1733
-172,Very Positive,90%,880
-220,Mostly Positive,79%,11488
-46,Very Positive,94%,46857
-221,Very Positive,91%,534
-49,Very Positive,91%,1246
-59,Mixed,52%,7412
-69,Very Positive,82%,801
-222,Very Positive,83%,78
-223,Very Positive,80%,6669
-224,Mixed,49%,2939
-225,Very Positive,91%,737
-226,Very Positive,87%,3355
-227,Very Positive,89%,5364
-228,Overwhelmingly Positive,97%,708
-229,Very Positive,86%,1327
-95,Very Positive,90%,1610
-230,Overwhelmingly Positive,97%,810
-231,Mostly Positive,74%,8012
-232,Mixed,58%,74
-233,Very Positive,85%,6921
-234,Very Positive,92%,1724
-235,Overwhelmingly Positive,98%,3785
-236,Very Positive,86%,1972
-237,Very Positive,86%,238
-238,Positive,94%,19
-239,Very Positive,90%,121
-240,Very Positive,80%,653
-241,Overwhelmingly Positive,95%,1281
-242,Very Positive,91%,4002
-243,Overwhelmingly Positive,97%,14353
-244,Very Positive,93%,1442
-245,Very Positive,83%,595
-246,Very Positive,84%,207
-247,Very Positive,84%,125
-248,Very Positive,86%,228
-249,Very Positive,87%,152
-250,Very Positive,90%,700
-251,Very Positive,82%,63
-252,Very Positive,88%,1553
-253,Very Positive,93%,3615
-254,Very Positive,90%,132
-255,Very Positive,85%,798
-256,Very Positive,80%,130
-257,Very Positive,89%,1738
-258,Very Positive,89%,224
-259,Very Positive,91%,1236
-260,Positive,87%,33
-261,Positive,95%,20
-262,Mixed,66%,77
-263,Overwhelmingly Positive,95%,7330
-264,Overwhelmingly Positive,95%,4435
-265,Overwhelmingly Positive,95%,532
-266,Overwhelmingly Positive,95%,6134
-267,Overwhelmingly Positive,98%,13592
-268,Overwhelmingly Positive,97%,4513
-269,Overwhelmingly Positive,95%,791
-264,Overwhelmingly Positive,95%,4435
-265,Overwhelmingly Positive,95%,532
-266,Overwhelmingly Positive,95%,6134
-270,Overwhelmingly Positive,95%,1136
-271,Overwhelmingly Positive,96%,3149
-272,Overwhelmingly Positive,95%,2706
-273,Overwhelmingly Positive,98%,10708
-274,Overwhelmingly Positive,96%,4007
-275,Overwhelmingly Positive,95%,769
-276,Overwhelmingly Positive,97%,1743
-277,Overwhelmingly Positive,97%,5829
-278,Overwhelmingly Positive,96%,548
-279,Very Positive,81%,61
-280,Very Positive,92%,50
-281,Very Positive,89%,66
-282,Very Positive,85%,1556
-283,Very Positive,93%,533
-284,Very Positive,91%,233
-285,Very Positive,85%,211
-286,Very Positive,84%,1874
-287,Very Positive,95%,87
-288,Very Positive,88%,193
-289,Very Positive,83%,193
-290,Very Positive,86%,82
-291,Very Positive,94%,391
+2
+114
+218
+137
+219
+149
+172
+220
+46
+221
+49
+59
+69
+222
+223
+224
+225
+226
+227
+228
+229
+95
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+264
+265
+266
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291

@@ -1,99 +1,99 @@
-103,Mixed,68%,361470
-137,Mixed,64%,2892
-782,Mostly Positive,71%,6463
-783,Very Positive,91%,164882
-171,Mixed,68%,1607
-208,Very Positive,88%,20520
-220,Mostly Positive,79%,11488
-696,Mostly Positive,75%,285
-345,Mixed,46%,106
-434,Very Positive,85%,1032
-784,Very Positive,85%,13323
-785,Mostly Positive,74%,9233
-224,Mixed,49%,2939
-646,Very Positive,88%,12902
-451,Very Positive,90%,235
-452,Very Positive,88%,10988
-786,Mostly Positive,77%,762
-455,Very Positive,85%,132
-231,Mostly Positive,74%,8012
-787,Very Positive,87%,835
-234,Very Positive,92%,1724
-236,Very Positive,86%,1972
-788,Positive,88%,42
-656,Very Positive,80%,788
-238,Positive,94%,19
-789,Very Positive,91%,2213
-565,Mixed,58%,8351
-245,Very Positive,83%,595
-790,Overwhelmingly Positive,96%,4276
-791,Very Positive,84%,51
-792,Very Positive,80%,122
-260,Positive,87%,33
-793,Mixed,41%,46
-129,Mixed,68%,361872
-131,Mixed,68%,361872
-266,Overwhelmingly Positive,95%,6134
-794,Overwhelmingly Positive,95%,628
-598,Very Positive,84%,160
-795,Very Positive,94%,86
-796,Very Positive,92%,88
-797,Very Positive,89%,389
-798,Very Positive,82%,52
-799,Very Positive,90%,184
-800,Very Positive,87%,307
-801,Very Positive,96%,394
-802,Very Positive,91%,1141
-803,Very Positive,82%,2425
-804,Very Positive,90%,1115
-805,Very Positive,80%,319
-799,Very Positive,90%,184
-806,Very Positive,88%,503
-807,Very Positive,81%,2815
-808,Very Positive,85%,990
-809,Very Positive,93%,148
-810,Very Positive,82%,50
-811,Very Positive,85%,96
-812,Very Positive,87%,66
-813,Very Positive,93%,4398
-814,Very Positive,87%,256
-815,Very Positive,91%,1705
-816,Very Positive,94%,792
-817,Very Positive,87%,747
-818,Very Positive,90%,131
-819,Very Positive,87%,8973
-820,Very Positive,85%,364
-821,Very Positive,82%,1901
-822,Very Positive,83%,193
-823,Very Positive,89%,344
-824,Very Positive,87%,6777
-825,Very Positive,80%,239
-826,Very Positive,80%,839
-827,Very Positive,86%,75
-828,Very Positive,80%,6679
-829,Very Positive,88%,130
-830,Very Positive,82%,192
-831,Very Positive,93%,12920
-832,Very Positive,83%,2065
-833,Very Positive,83%,55
-834,Very Positive,82%,2557
-835,Very Positive,93%,3187
-836,Very Positive,81%,3959
-807,Very Positive,81%,2815
-808,Very Positive,85%,990
-809,Very Positive,93%,148
-820,Very Positive,85%,364
-821,Very Positive,82%,1901
-822,Very Positive,83%,193
-823,Very Positive,89%,344
-824,Very Positive,87%,6777
-825,Very Positive,80%,239
-826,Very Positive,80%,839
-827,Very Positive,86%,75
-828,Very Positive,80%,6679
-829,Very Positive,88%,130
-837,Very Positive,94%,131
-838,Very Positive,81%,1256
-799,Very Positive,90%,184
-839,Very Positive,91%,272
-840,Very Positive,88%,297
+103
+137
+782
+783
+171
+208
+220
+696
+345
+434
+784
+785
+224
+646
+451
+452
+786
+455
+231
+787
+234
+236
+788
+656
+238
+789
+565
+245
+790
+791
+792
+260
+793
+129
+131
+266
+794
+598
+795
+796
+797
+798
+799
+800
+801
+802
+803
+804
+805
+799
+806
+807
+808
+809
+810
+811
+812
+813
+814
+815
+816
+817
+818
+819
+820
+821
+822
+823
+824
+825
+826
+827
+828
+829
+830
+831
+832
+833
+834
+835
+836
+807
+808
+809
+820
+821
+822
+823
+824
+825
+826
+827
+828
+829
+837
+838
+799
+839
+840

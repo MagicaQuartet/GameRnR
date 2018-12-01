@@ -4,7 +4,7 @@ path = "./tmp_data/"
 
 id = 0
 name_dict = dict()
-with open("./data/game_id.txt", "w") as gid_f:
+with open("./game_id.txt", "w") as gid_f:
     for file in os.listdir(path):
         print(file)
         if file != "game_id.txt":
@@ -13,13 +13,15 @@ with open("./data/game_id.txt", "w") as gid_f:
                     tp = line.rstrip().split('"')
                     name = tp[1]
                     if name in name_dict.keys():
-                        gid = name_dict[name]
+                        gid = name_dict[name][0]
                     else:
                         gid = id
-                        name_dict[name] = gid
                         id += 1
-                    new_str = str(gid)+tp[2]+"\n"
-                    output_f.write(new_str)
+                        tmp = tp[2].split(",")
+                        p = tmp[2].split("%")[0]
+                        num = tmp[3]
+                        name_dict[name] = [gid, p, num]
+                    output_f.write(str(gid)+'\n')
     for key in name_dict.keys():
-        string = str(name_dict[key])+","+key+"\n"
+        string = str(name_dict[key][0])+","+str(name_dict[key][1])+","+str(name_dict[key][2])+',"'+key+'"\n'
         gid_f.write(string)

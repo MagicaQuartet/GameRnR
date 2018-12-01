@@ -26,11 +26,3 @@ for directory in os.listdir(data_path):
                         # print(write_data)
                         output_file.write(write_data)
                     i += 1
-
-# with open("./data.txt", "r") as f:
-#     for line in f:
-#         tmp = line.rstrip().split('"')
-#         name = tmp[1]
-#         tmp2 = tmp[2].split(',')
-#         # print(tmp2[1], tmp2[2], tmp2[3])
-#         print("Title: %s\nResponse: %s\n%s of %s user reviews are positive\n" % (name, tmp2[1], tmp2[2], tmp2[3]))
