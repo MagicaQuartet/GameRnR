@@ -23,17 +23,21 @@ router.get('/recommendation', function (req, res) {
 });
 
 router.get('/listReview', function (req, res) {
-	connection.query('SELECT * FROM user_review WHERE name LIKE \'%'+req.query.name+'%\'ORDER BY rating DESC;', function (err, rows) {
-		if (err) throw err;
-		res.send(rows);
-	})
+	if (/[^a-zA-Z0-9 ]+/.test(req.query.name) == false) {
+		connection.query('SELECT * FROM user_review WHERE name LIKE \'%'+req.query.name+'%\'ORDER BY rating DESC;', function (err, rows) {
+			if (err) throw err;
+			res.send(rows);
+		})
+	}
 });
 
 router.get('/listGame', function (req, res) {
-	connection.query('SELECT * FROM all_games WHERE name LIKE \'%'+req.query.name+'%\';', function (err, rows) {
-		if (err) throw err;
-		res.send(rows);
-	})
+	if (/[^a-zA-Z0-9 ]+/.test(req.query.name) == false) {
+		connection.query('SELECT * FROM all_games WHERE name LIKE \'%'+req.query.name+'%\';', function (err, rows) {
+			if (err) throw err;
+			res.send(rows);
+		})
+	}
 });
 
 router.post('/writeReview', function (req, res) {
@@ -56,7 +60,6 @@ router.post('/writeReview', function (req, res) {
 
 			connection.query(updateQuery, function (err, rows) {
 				if (err) throw err;
-				console.log(rows);
 			})
 		}
 		else {
@@ -67,7 +70,6 @@ router.post('/writeReview', function (req, res) {
 
 			connection.query(insertQuery, function (err, rows) {
 				if (err) throw err;
-				console.log(rows);
 			});
 		}
 	});
@@ -78,7 +80,6 @@ router.post('/deleteReview', function (req, res) {
 
 	connection.query(deleteQuery, function (err, rows) {
 		if (err) throw err;
-		console.log(rows);
 	})
 });
 
