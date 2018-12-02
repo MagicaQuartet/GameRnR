@@ -23,7 +23,8 @@ router.get('/recommendation', function (req, res) {
 });
 
 router.get('/listReview', function (req, res) {
-	if (/[^a-zA-Z0-9 ]+/.test(req.query.name) == false) {
+	if (/[^a-zA-Z0-9 ':,!-&]+/.test(req.query.name) == false) {
+		req.query.name = req.query.name.replace(/'/, "\\'");
 		connection.query('SELECT * FROM user_review WHERE name LIKE \'%'+req.query.name+'%\'ORDER BY rating DESC;', function (err, rows) {
 			if (err) throw err;
 			res.send(rows);
@@ -32,7 +33,8 @@ router.get('/listReview', function (req, res) {
 });
 
 router.get('/listGame', function (req, res) {
-	if (/[^a-zA-Z0-9 ]+/.test(req.query.name) == false) {
+	if (/[^a-zA-Z0-9 ':,!-&]+/.test(req.query.name) == false) {
+		req.query.name = req.query.name.replace(/'/, "\\'");
 		connection.query('SELECT * FROM all_games WHERE name LIKE \'%'+req.query.name+'%\';', function (err, rows) {
 			if (err) throw err;
 			res.send(rows);
@@ -42,6 +44,7 @@ router.get('/listGame', function (req, res) {
 
 router.post('/writeReview', function (req, res) {
 	var duplicate = false;
+	req.body.name = req.body.name.replace(/'/, "\\'");
 
 	connection.query('SELECT * FROM user_review WHERE name=\''+req.body.name+'\';', function (err, rows) {
 		if (err) throw err;
@@ -53,7 +56,6 @@ router.post('/writeReview', function (req, res) {
 
 	connection.query(selectQuery, function (err, row) {
 		if (err) throw err;
-		console.log(row);
 		
 		if (duplicate) {
 			updateQuery = 'UPDATE user_review SET rating='+req.body.rating+' WHERE name=\''+req.body.name+'\';'
@@ -76,6 +78,7 @@ router.post('/writeReview', function (req, res) {
 });
 
 router.post('/deleteReview', function (req, res) {
+	req.body.name = req.body.name.replace(/'/, "\\'");
 	deleteQuery = 'DELETE FROM user_review WHERE name=\''+req.body.name+'\';';
 
 	connection.query(deleteQuery, function (err, rows) {
