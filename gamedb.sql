@@ -1,8 +1,35 @@
 CREATE DATABASE IF NOT EXISTS game_rnr;
 USE game_rnr;
 
+SET FOREIGN_KEY_CHECKS = 0;
+DROP TABLE IF EXISTS 2d;
+DROP TABLE IF EXISTS action;
+DROP TABLE IF EXISTS adventure;
+DROP TABLE IF EXISTS arcade;
+DROP TABLE IF EXISTS casual;
+DROP TABLE IF EXISTS difficult;
+DROP TABLE IF EXISTS earlyaccess;
+DROP TABLE IF EXISTS fps;
+DROP TABLE IF EXISTS freetoplay;
+DROP TABLE IF EXISTS gore;
+DROP TABLE IF EXISTS indie;
+DROP TABLE IF EXISTS massivelymultiplayer;
+DROP TABLE IF EXISTS openworld;
+DROP TABLE IF EXISTS puzzle;
+DROP TABLE IF EXISTS racing;
+DROP TABLE IF EXISTS RPG;
+DROP TABLE IF EXISTS scifi;
+DROP TABLE IF EXISTS simulation;
+DROP TABLE IF EXISTS singleplayer;
+DROP TABLE IF EXISTS sports;
+DROP TABLE IF EXISTS storyich;
+DROP TABLE IF EXISTS strategy;
+DROP TABLE IF EXISTS survival;
+DROP TABLE IF EXISTS violent;
 DROP TABLE IF EXISTS user_review;
 DROP TABLE IF EXISTS all_games;
+SET FOREIGN_KEY_CHECKS = 1;
+
 CREATE TABLE IF NOT EXISTS all_games (
     id		bigint(20)	unsigned	NOT NULL,
     name	VARCHAR(50)	NOT NULL,
@@ -1051,9 +1078,11 @@ INSERT INTO all_games(id, name, rating, num) VALUES(1027, "Sniper Elite 4 - Seas
 INSERT INTO all_games(id, name, rating, num) VALUES(1028, "Warhammer: Vermintide 2 - Shadows Over Bogenhafen", 42, 432);
 INSERT INTO all_games(id, name, rating, num) VALUES(1029, "Hiveswap Friendsim - Volume Ten", 100, 11);
 
+
+
 CREATE TABLE IF NOT EXISTS 2d (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -1158,9 +1187,11 @@ INSERT INTO 2d(gid) VALUES(96);
 INSERT INTO 2d(gid) VALUES(97);
 INSERT INTO 2d(gid) VALUES(98);
 
+
+
 CREATE TABLE IF NOT EXISTS action (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -1257,9 +1288,11 @@ INSERT INTO action(gid) VALUES(175);
 INSERT INTO action(gid) VALUES(176);
 INSERT INTO action(gid) VALUES(177);
 
+
+
 CREATE TABLE IF NOT EXISTS adventure (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -1359,9 +1392,11 @@ INSERT INTO adventure(gid) VALUES(216);
 INSERT INTO adventure(gid) VALUES(217);
 INSERT INTO adventure(gid) VALUES(35);
 
+
+
 CREATE TABLE IF NOT EXISTS arcade (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -1455,7 +1490,7 @@ INSERT INTO arcade(gid) VALUES(291);
 
 CREATE TABLE IF NOT EXISTS atmospheric (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -1555,9 +1590,11 @@ INSERT INTO atmospheric(gid) VALUES(331);
 INSERT INTO atmospheric(gid) VALUES(332);
 INSERT INTO atmospheric(gid) VALUES(332);
 
+
+
 CREATE TABLE IF NOT EXISTS casual (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -1651,9 +1688,11 @@ INSERT INTO casual(gid) VALUES(385);
 INSERT INTO casual(gid) VALUES(386);
 INSERT INTO casual(gid) VALUES(387);
 
+
+
 CREATE TABLE IF NOT EXISTS difficult (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -1754,9 +1793,11 @@ INSERT INTO difficult(gid) VALUES(422);
 INSERT INTO difficult(gid) VALUES(423);
 INSERT INTO difficult(gid) VALUES(424);
 
+
+
 CREATE TABLE IF NOT EXISTS earlyaccess (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -1859,9 +1900,11 @@ INSERT INTO earlyaccess(gid) VALUES(488);
 INSERT INTO earlyaccess(gid) VALUES(489);
 INSERT INTO earlyaccess(gid) VALUES(490);
 
+
+
 CREATE TABLE IF NOT EXISTS fps (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -1964,9 +2007,11 @@ INSERT INTO fps(gid) VALUES(534);
 INSERT INTO fps(gid) VALUES(422);
 INSERT INTO fps(gid) VALUES(369);
 
+
+
 CREATE TABLE IF NOT EXISTS freetoplay (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -2071,9 +2116,11 @@ INSERT INTO freetoplay(gid) VALUES(626);
 INSERT INTO freetoplay(gid) VALUES(627);
 INSERT INTO freetoplay(gid) VALUES(628);
 
+
+
 CREATE TABLE IF NOT EXISTS gore (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -2172,9 +2219,11 @@ INSERT INTO gore(gid) VALUES(680);
 INSERT INTO gore(gid) VALUES(681);
 INSERT INTO gore(gid) VALUES(682);
 
+
+
 CREATE TABLE IF NOT EXISTS indie (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -2278,9 +2327,11 @@ INSERT INTO indie(gid) VALUES(694);
 INSERT INTO indie(gid) VALUES(40);
 INSERT INTO indie(gid) VALUES(695);
 
+
+
 CREATE TABLE IF NOT EXISTS massivelymultiplayer (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -2383,9 +2434,11 @@ INSERT INTO massivelymultiplayer(gid) VALUES(741);
 INSERT INTO massivelymultiplayer(gid) VALUES(720);
 INSERT INTO massivelymultiplayer(gid) VALUES(742);
 
+
+
 CREATE TABLE IF NOT EXISTS openworld (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -2488,9 +2541,11 @@ INSERT INTO openworld(gid) VALUES(311);
 INSERT INTO openworld(gid) VALUES(307);
 INSERT INTO openworld(gid) VALUES(308);
 
+
+
 CREATE TABLE IF NOT EXISTS puzzle (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -2590,9 +2645,11 @@ INSERT INTO puzzle(gid) VALUES(780);
 INSERT INTO puzzle(gid) VALUES(781);
 INSERT INTO puzzle(gid) VALUES(652);
 
+
+
 CREATE TABLE IF NOT EXISTS racing (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -2696,9 +2753,11 @@ INSERT INTO racing(gid) VALUES(799);
 INSERT INTO racing(gid) VALUES(839);
 INSERT INTO racing(gid) VALUES(840);
 
+
+
 CREATE TABLE IF NOT EXISTS RPG (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -2799,9 +2858,11 @@ INSERT INTO RPG(gid) VALUES(318);
 INSERT INTO RPG(gid) VALUES(353);
 INSERT INTO RPG(gid) VALUES(867);
 
+
+
 CREATE TABLE IF NOT EXISTS scifi (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -2902,9 +2963,11 @@ INSERT INTO scifi(gid) VALUES(904);
 INSERT INTO scifi(gid) VALUES(665);
 INSERT INTO scifi(gid) VALUES(905);
 
+
+
 CREATE TABLE IF NOT EXISTS simulation (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -3008,9 +3071,11 @@ INSERT INTO simulation(gid) VALUES(71);
 INSERT INTO simulation(gid) VALUES(346);
 INSERT INTO simulation(gid) VALUES(927);
 
+
+
 CREATE TABLE IF NOT EXISTS singleplayer (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -3112,9 +3177,11 @@ INSERT INTO singleplayer(gid) VALUES(22);
 INSERT INTO singleplayer(gid) VALUES(632);
 INSERT INTO singleplayer(gid) VALUES(294);
 
+
+
 CREATE TABLE IF NOT EXISTS sports (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -3217,9 +3284,11 @@ INSERT INTO sports(gid) VALUES(981);
 INSERT INTO sports(gid) VALUES(808);
 INSERT INTO sports(gid) VALUES(982);
 
+
+
 CREATE TABLE IF NOT EXISTS storyrich (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -3319,9 +3388,11 @@ INSERT INTO storyrich(gid) VALUES(990);
 INSERT INTO storyrich(gid) VALUES(991);
 INSERT INTO storyrich(gid) VALUES(72);
 
+
+
 CREATE TABLE IF NOT EXISTS strategy (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -3421,9 +3492,11 @@ INSERT INTO strategy(gid) VALUES(889);
 INSERT INTO strategy(gid) VALUES(890);
 INSERT INTO strategy(gid) VALUES(344);
 
+
+
 CREATE TABLE IF NOT EXISTS survival (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
@@ -3526,9 +3599,11 @@ INSERT INTO survival(gid) VALUES(524);
 INSERT INTO survival(gid) VALUES(454);
 INSERT INTO survival(gid) VALUES(416);
 
+
+
 CREATE TABLE IF NOT EXISTS violent (
     tid     bigint(20)  unsigned    NOT NULL    AUTO_INCREMENT,
-    gid     bigint(20)  unsigned    NOT NULL,
+    gid     bigint(20)  unsigned    NOT NULL    UNIQUE,
     PRIMARY KEY (tid),
     FOREIGN KEY (gid) REFERENCES all_games(id)
 );
