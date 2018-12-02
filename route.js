@@ -42,6 +42,48 @@ router.get('/listGame', function (req, res) {
 	}
 });
 
+router.get('/listRecommendation', function (req, res) {
+	var tagQuery = (tag) => 'SELECT tag.gid AS id, SUM(r.rating-5) AS score\
+													FROM user_review AS r, '+tag+' AS tag\
+													WHERE EXISTS (SELECT *\
+																				FROM '+tag+' AS f\
+																				WHERE r.gid=f.gid)\
+																AND\
+																NOT EXISTS (SELECT *\
+															  						FROM user_review AS r2\
+															  						WHERE tag.gid=r2.gid)\
+													GROUP BY tag.gid'
+
+
+	var tagQueryList = [tagQuery('2d'), tagQuery('RPG'), tagQuery('action'),
+											tagQuery('adventure'), tagQuery('arcade'), tagQuery('atmospheric'), 
+											tagQuery('casual'), tagQuery('difficult'), tagQuery('earlyaccess'),
+											tagQuery('fps'), tagQuery('freetoplay'), tagQuery('gore'),
+											tagQuery('indie'), tagQuery('massivelymultiplayer'), tagQuery('openworld'),
+											tagQuery('puzzle'), tagQuery('racing'), tagQuery('scifi'),
+											tagQuery('simulation'), tagQuery('singleplayer'), tagQuery('sports'),
+											tagQuery('storyrich'), tagQuery('strategy'), tagQuery('survival'),
+											tagQuery('violent')];
+
+
+	var union = tagQueryList.join(' UNION ');
+	var totalScoreQuery = 'SELECT result.id AS id, SUM(result.score) AS score\
+										 FROM ('+union+') AS result\
+										 GROUP BY result.id\
+										 ORDER BY score DESC\
+										 LIMIT 10'
+
+	var resultQuery = 'SELECT g.name AS name, r.score AS score\
+										 FROM all_games AS g, ('+totalScoreQuery+') AS r\
+										 WHERE g.id=r.id;'
+
+	connection.query(resultQuery, function (err, rows) {
+		if (err) throw err;
+		
+		console.log(rows);
+	})
+});
+
 router.post('/writeReview', function (req, res) {
 	var duplicate = false;
 	req.body.name = req.body.name.replace(/'/, "\\'");
