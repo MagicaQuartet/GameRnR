@@ -33,5 +33,33 @@
   </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <script>
+  	if (!$('#recommendation-list').length) {
+			var $list = $('<ul class="list-group" id="recommendation-list"></ul>');
+			$('body').append($list);
+		}
+		else {
+			var rows = $('#recommendation-list').children();
+			for (var i=0; i<rows.length; i++) {
+				rows[i].remove();
+			}
+		}
+
+  	$(function() {
+  		$.ajax({
+  			url: "/listRecommendation",
+  			type: 'GET',
+  			success: function(result) {
+  				if (result.length) {
+  					for (var i in result) {
+  						var item = result[i];
+  						$('#recommendation-list').append(
+							'<li class="list-group-item">'+item.name+'</li>');
+  					}
+  				}
+  			}
+  		});
+  	});
+  </script>
 </body>
 </html>

@@ -43,7 +43,7 @@ router.get('/listGame', function (req, res) {
 });
 
 router.get('/listRecommendation', function (req, res) {
-	var tagQuery = (tag) => 'SELECT tag.gid AS id, SUM(r.rating) AS score\
+	var tagQuery = (tag) => 'SELECT tag.gid AS id, SUM(r.rating-5) AS score\
 													FROM user_review AS r, '+tag+' AS tag\
 													WHERE EXISTS (SELECT *\
 																				FROM '+tag+' AS f\
@@ -72,14 +72,14 @@ router.get('/listRecommendation', function (req, res) {
 
 	var resultQuery = 'SELECT g.name AS name, (r.score*g.rating*0.01) AS score\
 										 FROM all_games AS g, ('+totalScoreQuery+') AS r\
-										 WHERE g.id=r.id\
+										 WHERE g.id=r.id AND r.score > 0\
 										 ORDER BY score DESC\
-										 LIMIT 15;'
+										 LIMIT 10;'
 
 	connection.query(resultQuery, function (err, rows) {
 		if (err) throw err;
-		
 		console.log(rows);
+		res.send(rows);
 	})
 });
 
