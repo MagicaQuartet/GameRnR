@@ -169,23 +169,23 @@
 		})
 
 		$('body').on('click', '#delete-review-btn', function(event) {
-			event.preventDefault();
+				event.preventDefault();
 
-			var row = $('input[name=review-opt]:checked');
-			var game = row.val();
+				var row = $('input[name=review-opt]:checked');
+				var game = row.val();
 
-			$.ajax({
-				url: "/deleteReview",
-				type: 'POST',
-				data: {
-					name: game
-				},
-				success: function(event) {
-					row.parent().parent().remove();
-					$('#delete-review-btn').hide();
-				}
-			});
-		})
+				$.ajax({
+					url: "/deleteReview",
+					type: 'POST',
+					data: {
+						name: game
+					},
+					success: function(event) {
+						row.parent().parent().remove();
+						$('#delete-review-btn').hide();
+					}
+				});
+			})
 	</script>
 </body>
 </html>

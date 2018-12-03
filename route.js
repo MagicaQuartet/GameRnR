@@ -43,16 +43,15 @@ router.get('/listGame', function (req, res) {
 });
 
 router.get('/listRecommendation', function (req, res) {
-	var tagQuery = (tag) => 'SELECT tag.gid AS id, SUM(r.rating-5) AS score\
+	var tagQuery = (tag) => 'SELECT tag.gid AS id, SUM(r.rating) AS score\
 													FROM user_review AS r, '+tag+' AS tag\
 													WHERE EXISTS (SELECT *\
 																				FROM '+tag+' AS f\
 																				WHERE r.gid=f.gid)\
-																AND\
-																NOT EXISTS (SELECT *\
-															  						FROM user_review AS r2\
-															  						WHERE tag.gid=r2.gid)\
-													GROUP BY tag.gid'
+													GROUP BY tag.gid\
+													HAVING NOT EXISTS (SELECT *\
+															  						 FROM user_review AS r2\
+															  						 WHERE tag.gid=r2.gid)'
 
 
 	var tagQueryList = [tagQuery('2d'), tagQuery('RPG'), tagQuery('action'),
@@ -125,7 +124,11 @@ router.post('/deleteReview', function (req, res) {
 
 	connection.query(deleteQuery, function (err, rows) {
 		if (err) throw err;
-	})
+	});
+
+	res.writeHead(200, { 'Content-Type': 'application/json' });
+	res.write(JSON.stringify({ status: "OK" }));
+	res.end();
 });
 
 module.exports = router;
