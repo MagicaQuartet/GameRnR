@@ -5,6 +5,6 @@ const app = express();
 
 app.use('/', route);
 
-app.listen(1234, function() {
-	console.log('Game RnR app listening on port 1234!');
+app.listen(3000, function() {
+	console.log('Game RnR app listening on port 3000!');
 });

@@ -1,0 +1,100 @@
+"Warframe",Very Positive,91%,205936
+"War Thunder",Mostly Positive,79%,96775
+"Yu-Gi-Oh! Duel Links",Mostly Positive,74%,8429
+"Dota 2",Very Positive,86%,944550
+"PlanetSide 2",Very Positive,82%,42362
+"Black Squad",Mostly Positive,74%,38011
+"MapleStory 2",Mostly Positive,73%,4086
+"World of Warships",Mostly Positive,72%,9242
+"Team Fortress 2",Very Positive,91%,10307
+"LET IT DIE",Mixed,64%,1482
+"Warface",Mixed,69%,44615
+"Shadowverse CCG",Mostly Positive,74%,6946
+"World of Tanks Blitz",Mixed,69%,16248
+"Paladins¢ç",Very Positive,83%,186819
+"Ring of Elysium",Mostly Positive,71%,20444
+"VEGA Conflict",Mixed,52%,2657
+"Russian Fishing 4",Mixed,65%,2158
+"Trove",Mostly Positive,77%,59554
+"Aura Kingdom",Mostly Positive,78%,7040
+"MOBIUS FINAL FANTASY¢â",Mixed,69%,3344
+"EVE Online",Mostly Positive,74%,10059
+"Heroes &amp; Generals",Mixed,65%,94651
+"Spiral Knights",Very Positive,83%,18476
+"H1Z1",Mixed,55%,197805
+"Black Survival",Mostly Positive,77%,978
+"Duelyst",Very Positive,81%,4138
+"Prominence Poker",Mostly Positive,78%,1742
+"Dragon Saga",Mostly Positive,70%,805
+"Fallout Shelter",Very Positive,85%,22742
+"Crush Crush",Very Positive,87%,7577
+"War Robots",Mixed,50%,1049
+"RaceRoom Racing Experience",Mixed,58%,8351
+"Unturned",Very Positive,90%,316586
+"Robocraft",Mostly Positive,72%,109909
+"BLOCKPOST",Mixed,69%,1772
+"OH MY GOD, LOOK AT THIS KNIGHT",Overwhelmingly Positive,95%,741
+"Meteor 60 Seconds!",Overwhelmingly Positive,96%,2006
+"Coloring Pixels",Overwhelmingly Positive,95%,686
+"Half-Life 2: DownFall",Overwhelmingly Positive,95%,1446
+"A Raven Monologue",Overwhelmingly Positive,95%,1299
+"Sprout",Overwhelmingly Positive,95%,689
+"The Expendabros",Overwhelmingly Positive,97%,15150
+"Portal Stories: Mel",Overwhelmingly Positive,95%,9880
+"Everlasting Summer",Overwhelmingly Positive,95%,30384
+"Floating Point",Overwhelmingly Positive,95%,3374
+"Cinderella Phenomenon - Otome/Visual Novel",Overwhelmingly Positive,96%,1965
+"The Lab",Overwhelmingly Positive,95%,2799
+"Ultimate Custom Night",Overwhelmingly Positive,95%,6550
+"OLDTV",Overwhelmingly Positive,95%,4338
+"Marie's Room",Overwhelmingly Positive,95%,3423
+"Portal Stories: Mel",Overwhelmingly Positive,95%,9880
+"Everlasting Summer",Overwhelmingly Positive,95%,30384
+"Eternal Senia",Overwhelmingly Positive,97%,9935
+"Iron Snout",Overwhelmingly Positive,98%,13591
+"Doki Doki Literature Club!",Overwhelmingly Positive,96%,104576
+"Modern Combat 5",Mostly Negative,36%,413
+"One Ping Only",Very Positive,91%,161
+"Microtransaction Simulator",Very Positive,88%,739
+"Just A Dream",Very Positive,83%,53
+"Fare Thee Well",Very Positive,97%,72
+"Evening Surprise",Very Positive,88%,465
+"Vintage VR",Very Positive,91%,60
+"Lost girl`s [diary]",Very Positive,81%,897
+"Mirt. Tales of the Cold Land. Chapter one",Very Positive,85%,188
+"Once on a windswept night",Very Positive,90%,108
+"Wander No More",Very Positive,90%,104
+"Base Defense",Very Positive,87%,96
+"Blueshift",Very Positive,84%,160
+"Martial Arts Brutality",Very Positive,83%,473
+"Dwarfs - F2P",Very Positive,85%,1556
+"Path Out",Very Positive,96%,111
+"My Lands: Black Gem Hunting",Very Positive,85%,3252
+"Penny Black",Very Positive,94%,57
+"Fausts Alptraum",Very Positive,90%,431
+"Google Spotlight Stories: Son of Jaguar",Very Positive,80%,50
+"CrocoMars",Very Positive,83%,80
+"Penny Black",Very Positive,94%,57
+"Lambda Wars Beta",Very Positive,94%,2977
+"Istrolid",Very Positive,87%,2128
+"Boid",Very Positive,80%,658
+"Sunset's Ashes",Very Positive,90%,101
+"Dr. Frank's Build a Boyfriend",Very Positive,84%,110
+"Garden of Oblivion",Very Positive,90%,99
+"Regeria Hope Episode 1",Very Positive,85%,322
+"Prey with Gun ??îÜ?Úª",Very Positive,94%,124
+"Dream Golf VR",Very Positive,82%,50
+"Mercury Blue: Mini Episode",Very Positive,89%,69
+"Found",Very Positive,87%,103
+"TinkerQuarry",Very Positive,91%,70
+"Loading Screen Simulator",Very Positive,85%,6447
+"Her Lie I Tried To Believe",Very Positive,81%,769
+"Find someone else",Very Positive,93%,75
+"¡¼SCP¡½Ðï?«ÎÛ­üÇ -The will of a single Tale-¡¼DEMOver.¡½",Very Positive,86%,151
+"Relik",Very Positive,88%,138
+"Company of Heroes: Blitzkrieg Mod",Very Positive,81%,277
+"Ember Strike",Very Positive,83%,999
+"The Abbey of Crime Extensum",Very Positive,85%,158
+"The Great War 1918",Very Positive,92%,455
+"Voices from the Sea",Very Positive,93%,1157
+"Europe at War",Very Positive,88%,689

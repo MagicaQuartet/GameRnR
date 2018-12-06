@@ -22,4 +22,4 @@ Then, install the node modules:
 Now, run the server.
 
 	$ node app.js
-	Game RnR app listening on port 1234!
+	Game RnR app listening on port 3000!
