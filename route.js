@@ -68,10 +68,15 @@ router.get('/listRecommendation', function (req, res) {
 	var union = tagQueryList.join(' UNION ');
 	var totalScoreQuery = 'SELECT result.id AS id, SUM(result.score) AS score\
 										 FROM ('+union+') AS result\
-										 GROUP BY result.id'
+										 GROUP BY result.id';
+	var viewQuery = 'CREATE VIEW total_score AS ('+totalScoreQuery+');';
+
+	connection.query(viewQuery, function (err, rows) {
+		if(err) throw err;
+	});
 
 	var resultQuery = 'SELECT g.name AS name, (r.score*g.rating*0.01) AS score\
-										 FROM all_games AS g, ('+totalScoreQuery+') AS r\
+										 FROM all_games AS g INNER JOIN total_score AS r\
 										 WHERE g.id=r.id AND r.score > 0\
 										 ORDER BY score DESC\
 										 LIMIT 10;'
@@ -80,7 +85,11 @@ router.get('/listRecommendation', function (req, res) {
 		if (err) throw err;
 		console.log(rows);
 		res.send(rows);
-	})
+	});
+
+	connection.query('DROP VIEW total_score;', function (err, rows) {
+		if (err) throw err;
+	});
 });
 
 router.post('/writeReview', function (req, res) {
