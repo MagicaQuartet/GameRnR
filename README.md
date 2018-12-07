@@ -9,15 +9,15 @@ Toy website for game review &amp; recommendation
 
 ### Setting
 
+Install the node modules:
+	
+	$ npm install
+
 To initialize database, run the **gamedb.sql** on mysql.
 
 This will create database called **game_rnr** and create tables called 
 **all_games** and **user_review**. 
 Also, the sql script creates new user called 'user'@'localhost' with password '1234'.
-
-Then, install the node modules:
-	
-	$ npm install
 
 Now, run the server.
 
