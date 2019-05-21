@@ -1,11 +1,11 @@
 const path = require('path');
-const connection = require('../configs/mysql.js');
+const connection = require('../../configs/mysql.js');
 
-export.index = function recommendationIndex(req, res) {
+exports.index = function recommendationIndex(req, res) {
   res.sendFile(path.join(__dirname, 'views', 'recommendation.html'));
 };
 
-export.show = function showRecommendation(req, res) {
+exports.show = function showRecommendation(req, res) {
   const tagQuery = function createTagQuery(tag) {
     return `SELECT tag.gid AS id, SUM(r.rating-5) AS score FROM user_review AS r, ${tag} AS tag WHERE EXISTS (SELECT * FROM ${tag} AS f WHERE r.gid=f.gid)	GROUP BY id	HAVING NOT EXISTS (SELECT * FROM user_review AS r2 WHERE tag.gid=r2.gid)`;
   };

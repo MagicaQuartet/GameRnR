@@ -1,12 +1,12 @@
 const path = require('path');
-const connection = require('../configs/mysql.js');
+const connection = require('../../configs/mysql.js');
 const testPattern = /[^a-zA-Z0-9 ':,!-&]+/;
 
-export.index = function reviewIndex(req, res) {
+exports.index = function reviewIndex(req, res) {
   res.sendFile(path.join(__dirname, 'views', 'review.html'));
 };
 
-export.show = function showReview(req, res) {
+exports.show = function showReview(req, res) {
   if (testPattern.test(req.query.name) === false) {
     req.query.name = req.query.name.replace(/'/, "\\'");
     connection.query(`SELECT * FROM user_review WHERE name LIKE '%${req.query.name}%' ORDER BY rating DESC;`, function(err, rows) {
@@ -16,7 +16,7 @@ export.show = function showReview(req, res) {
   }
 };
 
-export.game = function showGame(req, res) {
+exports.game = function showGame(req, res) {
   if (testPattern.test(req.query.name) == false) {
     req.query.name = req.query.name.replace(/'/, "\\'");
     connection.query(`SELECT * FROM all_games WHERE name LIKE '%${req.query.name}%';`, function (err, rows) {
@@ -26,7 +26,7 @@ export.game = function showGame(req, res) {
   }
 };
 
-export.write = function writeReview(req, res) {
+exports.write = function writeReview(req, res) {
   let duplicate = false;
 	req.body.name = req.body.name.replace(/'/, "\\'");
 
@@ -57,7 +57,7 @@ export.write = function writeReview(req, res) {
 	});
 };
 
-export.delete = function deleteReview(req, res) {
+exports.delete = function deleteReview(req, res) {
   req.body.name = req.body.name.replace(/'/, "\\'");
 	deleteQuery = `DELETE FROM user_review WHERE name='${req.body.name}';`;
 

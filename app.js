@@ -1,10 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const path = require('path');
 const app = express();
 
-const index = require('routes/index/index');
-const review = require('routes/review/index');
-const recommendation = require('routes/recommendation/index');
+const index = require('./routes/index/index');
+const review = require('./routes/review/index');
+const recommendation = require('./routes/recommendation/index');
 
 app.use(express.static(path.join(__dirname, 'static')));
 app.use(bodyParser.json());
