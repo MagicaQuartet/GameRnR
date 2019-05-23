@@ -47,7 +47,8 @@ CREATE TABLE IF NOT EXISTS user_review (
     FOREIGN KEY (gid) REFERENCES all_games(id)	
 );
 CREATE USER IF NOT EXISTS 'user'@'localhost' IDENTIFIED BY '1234';
-GRANT ALL PRIVILEGES ON game_rnr.user_review TO 'user'@'localhost';
+GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost' IDENTIFIED BY '1234';
+FLUSH PRIVILEGES;
 INSERT INTO all_games(id, name, rating, num) VALUES(0, "Stardew Valley", 96, 87688);
 INSERT INTO all_games(id, name, rating, num) VALUES(1, "RimWorld", 97, 23711);
 INSERT INTO all_games(id, name, rating, num) VALUES(2, "Puyo Puyo Tetris", 79, 1135);
