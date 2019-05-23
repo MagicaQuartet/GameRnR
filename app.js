@@ -17,6 +17,6 @@ app.use('/', index);
 app.use('/review', review);
 app.use('/recommendation', recommendation);
 
-app.listen(3000, function() {
+app.listen(3000, '0.0.0.0', function() {
 	console.log('Game RnR app listening on port 3000!');
 });
