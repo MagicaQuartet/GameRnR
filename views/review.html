@@ -1,191 +1,191 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<title>Game RnR</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <meta charset="utf-8" />
+  <title>Game RnR</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 </head>
 <body>
-	<!-- navigation bar -->
-	<nav class="navbar navbar-default">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-	      </button>
-	      <a class="navbar-brand" href="/">GameRnR</a>
-	    </div>
+  <!-- navigation bar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        </button>
+        <a class="navbar-brand" href="/">GameRnR</a>
+      </div>
 
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
-	        <li><a href="/review">Review</a></li>
-	        <li><a href="/recommendation">Recommendation</a></li>
-	      </ul>
-	    </div>
-	  </div>
-	</nav>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="/review">Review</a></li>
+          <li><a href="/recommendation">Recommendation</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
-	<div>
-		<ul class="nav nav-tabs">
-			<li role="presentation" class="active"><a href="#first">My review</a></li>
-			<li role="presentation"><a href="#second">Write</a></li>
-		</ul>
-	</div>
-	<div class="tab-content" style="margin-top: 80px;">
-		<div class="tab-pane fade active in" id="first">
-			<div class="col-lg-6" id="review-group">
-				<h1>My review</h1>
-		    <div class="input-group">
-		      <input type="text" class="form-control" id="search-review-text" placeholder="Search reviews (you can leave here empty)">
-		      <span class="input-group-btn">
-		        <button class="btn btn-default" id="search-review-btn" type="button" onclick="click">Search</button>
-		      </span>
-		    </div>
-		    <br>
-		  </div>
-		</div>
-		<div class="tab-pane fade" id="second">
-			<div class="col-lg-6" id="game-group">
-				<h1>Write new review</h1>
-		    <div class="input-group">
-		      <input type="text" class="form-control" id="search-game-text" placeholder="Search games (you can leave here empty)">
-		      <span class="input-group-btn">
-		        <button class="btn btn-default" id="search-game-btn" type="button" onclick="click">Search</button>
-		      </span>
-		    </div>
-		    <br>
-		  </div>
-		</div>
-	</div>
+  <div>
+    <ul class="nav nav-tabs">
+      <li role="presentation" class="active"><a href="#first">My review</a></li>
+      <li role="presentation"><a href="#second">Write</a></li>
+    </ul>
+  </div>
+  <div class="tab-content" style="margin-top: 80px;">
+    <div class="tab-pane fade active in" id="first">
+      <div class="col-lg-6" id="review-group">
+        <h1>My review</h1>
+        <div class="input-group">
+          <input type="text" class="form-control" id="search-review-text" placeholder="Search reviews (you can leave here empty)">
+          <span class="input-group-btn">
+            <button class="btn btn-default" id="search-review-btn" type="button" onclick="click">Search</button>
+          </span>
+        </div>
+        <br>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="second">
+      <div class="col-lg-6" id="game-group">
+        <h1>Write new review</h1>
+        <div class="input-group">
+          <input type="text" class="form-control" id="search-game-text" placeholder="Search games (you can leave here empty)">
+          <span class="input-group-btn">
+            <button class="btn btn-default" id="search-game-btn" type="button" onclick="click">Search</button>
+          </span>
+        </div>
+        <br>
+      </div>
+    </div>
+  </div>
 
-	<script
-  	src="https://code.jquery.com/jquery-3.3.1.min.js"
-  	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  	crossorigin="anonymous">	
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
   </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
-	<script>
-		$('#search-review-btn').on('click', function(event) {
-			event.preventDefault();
-			if (!$('#review-list').length) {
-				var $list = $('<ul class="list-group" id="review-list"></ul>');
-				$('#review-group').append($list);
-			}
-			else {
-				var rows = $('#review-list').children();
-				for (var i=0; i<rows.length; i++) {
-					rows[i].remove();
-				}
-			}
+  <script>
+    $('#search-review-btn').on('click', function(event) {
+      event.preventDefault();
+      if (!$('#review-list').length) {
+        var $list = $('<ul class="list-group" id="review-list"></ul>');
+        $('#review-group').append($list);
+      }
+      else {
+        var rows = $('#review-list').children();
+        for (var i=0; i<rows.length; i++) {
+          rows[i].remove();
+        }
+      }
 
-			$.ajax({
-				url: "/listReview",
-				type: 'GET',
-				data: {
-					name: $('#search-review-text').val()
-				},
-				success: function(result) {
-					for (var i in result) {
-						var item = result[i];
-						$('#review-list').append(
-							'<li class="list-group-item radio"><label><input type="radio" name="review-opt" value="'+item.name+'">'+item.name+'\t('+item.rating+')</label></li>');
-					}
+      $.ajax({
+        url: "/review/list",
+        type: 'GET',
+        data: {
+          name: $('#search-review-text').val()
+        },
+        success: function(result) {
+          for (var i in result) {
+            var item = result[i];
+            $('#review-list').append(
+              '<li class="list-group-item radio"><label><input type="radio" name="review-opt" value="'+item.name+'">'+item.name+'\t('+item.rating+')</label></li>');
+          }
 
-					$('#review-group').append('<button class="btn btn-default" id="delete-review-btn" type="button" onclick="click" style="display:none;">Delete</button>');
-				}
-			})
-		});
+          $('#review-group').append('<button class="btn btn-default" id="delete-review-btn" type="button" onclick="click" style="display:none;">Delete</button>');
+        }
+      })
+    });
 
-		$('#search-game-btn').on('click', function(event) {
-			event.preventDefault();
-			if (!$('#game-list').length) {
-				var $list = $('<ul class="list-group" id="game-list"></ul>');
-				$('#game-group').append($list);
-			}
-			else {
-				var rows = $('#game-list').children();
-				for (var i=0; i<rows.length; i++) {
-					rows[i].remove();
-				}
-			}
+    $('#search-game-btn').on('click', function(event) {
+      event.preventDefault();
+      if (!$('#game-list').length) {
+        var $list = $('<ul class="list-group" id="game-list"></ul>');
+        $('#game-group').append($list);
+      }
+      else {
+        var rows = $('#game-list').children();
+        for (var i=0; i<rows.length; i++) {
+          rows[i].remove();
+        }
+      }
 
-			$.ajax({
-				url: "/listGame",
-				type: 'GET',
-				data: {
-					name: $('#search-game-text').val()
-				},
-				success: function(result) {
-					for (var i in result) {
-						var item = result[i];
-						$('#game-list').append(
-							'<li class="list-group-item radio"><label><input type="radio" name="game-opt" value="'+item.name+'">'+item.name+'</label></li>'
-							);
-					}
+      $.ajax({
+        url: "/review/games",
+        type: 'GET',
+        data: {
+          name: $('#search-game-text').val()
+        },
+        success: function(result) {
+          for (var i in result) {
+            var item = result[i];
+            $('#game-list').append(
+              '<li class="list-group-item radio"><label><input type="radio" name="game-opt" value="'+item.name+'">'+item.name+'</label></li>'
+              );
+          }
 
-					$('#game-group').append('<button class="btn btn-default" id="write-review-btn" type="button" onclick="click" style="display:none;">Write</button>');
-				}
-			})
-		});
+          $('#game-group').append('<button class="btn btn-default" id="write-review-btn" type="button" onclick="click" style="display:none;">Write</button>');
+        }
+      })
+    });
 
-		$(function(){
-    	$('ul.nav-tabs a').click(function (event) {
-      	event.preventDefault()
-      	$(this).tab('show')
-    	})
-		});
+    $(function(){
+      $('ul.nav-tabs a').click(function (event) {
+        event.preventDefault()
+        $(this).tab('show')
+      })
+    });
 
-		$('body').on('change', 'input[name=game-opt]', function(event){
-			event.preventDefault();
-			$('#write-review-btn').show();
-		});
+    $('body').on('change', 'input[name=game-opt]', function(event){
+      event.preventDefault();
+      $('#write-review-btn').show();
+    });
 
-		$('body').on('change', 'input[name=review-opt]', function(event){
-			event.preventDefault();
-			$('#delete-review-btn').show();
-		});
+    $('body').on('change', 'input[name=review-opt]', function(event){
+      event.preventDefault();
+      $('#delete-review-btn').show();
+    });
 
-		$('body').on('click', '#write-review-btn', function(event){
-			event.preventDefault();
+    $('body').on('click', '#write-review-btn', function(event){
+      event.preventDefault();
 
-			var game = $('input[name=game-opt]:checked').val();
-			var rating = parseFloat(prompt("["+game+"] Rating: ", "Please enter 0 ~ 10 real number"));
+      var game = $('input[name=game-opt]:checked').val();
+      var rating = parseFloat(prompt("["+game+"] Rating: ", "Please enter 0 ~ 10 real number"));
 
-			if (isNaN(rating) || (rating < 0 || rating > 10)) {
-				alert("Please enter 0 ~ 10 real number");
-			}
-			else {
-				$.ajax({
-					url: "/writeReview",
-					type: 'POST',
-					data: {
-						name: game,
-						rating: rating
-					}
-				});
-			}
-		})
+      if (isNaN(rating) || (rating < 0 || rating > 10)) {
+        alert("Please enter 0 ~ 10 real number");
+      }
+      else {
+        $.ajax({
+          url: "/review/write",
+          type: 'PUT',
+          data: {
+            name: game,
+            rating: rating
+          }
+        });
+      }
+    })
 
-		$('body').on('click', '#delete-review-btn', function(event) {
-				event.preventDefault();
+    $('body').on('click', '#delete-review-btn', function(event) {
+        event.preventDefault();
 
-				var row = $('input[name=review-opt]:checked');
-				var game = row.val();
+        var row = $('input[name=review-opt]:checked');
+        var game = row.val();
 
-				$.ajax({
-					url: "/deleteReview",
-					type: 'POST',
-					data: {
-						name: game
-					},
-					success: function(event) {
-						row.parent().parent().remove();
-						$('#delete-review-btn').hide();
-					}
-				});
-			})
-	</script>
+        $.ajax({
+          url: "/review/delete",
+          type: 'PUT',
+          data: {
+            name: game
+          },
+          success: function(event) {
+            row.parent().parent().remove();
+            $('#delete-review-btn').hide();
+          }
+        });
+      })
+  </script>
 </body>
 </html>
