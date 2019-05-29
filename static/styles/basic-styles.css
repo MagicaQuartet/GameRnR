@@ -1,0 +1,18 @@
+.navbar {
+  background-color: orange;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+  color: white;
+  text-shadow: 0px 0px 5px gray;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: white;
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
+  background-color: darkorange;
+}
