@@ -2,7 +2,7 @@ const path = require('path');
 const connection = require('../../configs/mysql.js');
 
 exports.index = function recommendationIndex(req, res) {
-  res.sendFile(path.join(__dirname, '../../views', 'recommendation.html'));
+  res.render('recommendation');
 };
 
 exports.show = function showRecommendation(req, res) {

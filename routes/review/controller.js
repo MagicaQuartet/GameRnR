@@ -3,7 +3,7 @@ const connection = require('../../configs/mysql.js');
 const testPattern = /[^a-zA-Z0-9 ':,!-&]+/;
 
 exports.index = function reviewIndex(req, res) {
-  res.sendFile(path.join(__dirname, '../../views', 'review.html'));
+  res.render('review');
 };
 
 exports.show = function showReview(req, res) {

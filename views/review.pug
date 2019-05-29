@@ -1,0 +1,25 @@
+extend base.pug
+block content
+  div
+    ul.nav.nav-tabs
+      li.active(role="presentation")
+        a(href='#first') My review
+      li(role="presentation")
+        a(href="#second") Write
+  div.tab-content(style={ "margin-top": "80px" })
+    div.tab-pane.fade.active.in#first
+      div.col-lg-6#review-group
+        h1 My review
+        div.input-group
+          input.form-control#search-review-text(type="text", placeholder="Search reviews (you can leave here empty)")
+          span.input-group-btn
+            button.btn.btn-default#search-review-btn(type="button", onclick="click") Search
+    div.tab-pane.fade#second
+      div.col-lg-6#game-group
+        h1 Write new review
+        div.input-group
+          input.form-control#search-game-text(type="text", placeholder="Search games (you can leave here empty)")
+          span.input-group-btn
+            button.btn.btn-default#search-game-btn(type="button", onclick="click") Search
+block script
+  script(src="scripts/review.js")

@@ -7,6 +7,9 @@ const index = require('./routes/index/index');
 const review = require('./routes/review/index');
 const recommendation = require('./routes/recommendation/index');
 
+app.set('view engine', 'pug');
+app.set('views', path.join(__dirname, 'views'));
+
 app.use(express.static(path.join(__dirname, 'static')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
