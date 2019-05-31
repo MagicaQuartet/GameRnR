@@ -1,5 +1,39 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar {
+  flex: none;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: blur(3px);
+  z-index: -1;
+  background: no-repeat fixed center center;
+  background-size: cover;
+  transform: scale(1.1);
+}
+
 .jumbotron {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex: 1;
+  margin: 0px;
+  color: white;
+  text-shadow: 0px -3px 10px ivory, 0 0 15px orange, 0 3px 10px #ff00de;
+  background-color: transparent;
+  cursor: default;
+  user-select: none;
 }

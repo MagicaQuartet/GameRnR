@@ -2,6 +2,12 @@ extend base.pug
 block style
   link(rel="stylesheet", href="styles/index.css")
 block content
+  div.background(style={'background-image': "url('../images/background0.jpg')"})
+  div.background(style={'background-image': "url('../images/background1.jpg')", display: 'none'})
+  div.background(style={'background-image': "url('../images/background2.jpg')", display: 'none'})
+  div.background(style={'background-image': "url('../images/background3.png')", display: 'none'})
   div.jumbotron
     h1 Game RnR
     p Web service for game review &amp; recommendation
+block script
+  script(src="scripts/index.js")

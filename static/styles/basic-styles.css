@@ -1,5 +1,6 @@
 .navbar {
   background-color: orange;
+  margin-bottom: 0px;
 }
 
 .navbar-brand, .navbar-nav>li>a {
